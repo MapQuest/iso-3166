@@ -13,6 +13,10 @@
     }
   },
 
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {}
+  },
+
   "onCreateCommand": "echo \"//npm.pkg.github.com/:_authToken=$GITHUB_TOKEN\" > ~/.npmrc",
   "postCreateCommand": "npm ci",
   "postAttachCommand": "echo \"//npm.pkg.github.com/:_authToken=$GITHUB_TOKEN\" > ~/.npmrc"
