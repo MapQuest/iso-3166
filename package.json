@@ -7,13 +7,11 @@
   "main": "./iso3166.min.js",
   "scripts": {
     "benchmark": "node ./benchmark/index.js",
-    "test": "node ./test/index.js"
+    "test": "jest ."
   },
   "devDependencies": {
-    "benchmark": "^2.1.4",
-    "tape": "*",
+    "@mapquest/team": "^0.3.8",
     "tinybench": "^2.9.0",
-    "uglify-js": "^3.19.3",
-    "underscore": "^1.8.3"
+    "uglify-js": "^3.19.3"
   }
 }
