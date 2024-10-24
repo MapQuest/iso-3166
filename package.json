@@ -2,17 +2,12 @@
   "name": "iso-3166",
   "description": "Lookup information about ISO-3166-2 subdivisions.",
   "version": "1.0.0",
-  "author": "Ola Holmström <olaholmstrom+github@gmail.com>",
-  "keywords": [
-    "iso3166",
-    "iso-3166",
-    "iso-3166-2",
-    "geo"
-  ],
+  "license": "MIT",
+  "repository": "github:MapQuest/iso-3166",
   "main": "./iso3166.min.js",
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/olahol/iso-3166-2.js.git"
+  "scripts": {
+    "benchmark": "node ./benchmark/index.js",
+    "test": "node ./test/index.js"
   },
   "devDependencies": {
     "benchmark": "^2.1.4",
@@ -20,15 +15,5 @@
     "tinybench": "^2.9.0",
     "uglifyjs": "^2.4.10",
     "underscore": "^1.8.3"
-  },
-  "scripts": {
-    "benchmark": "node ./benchmark/index.js",
-    "test": "node ./test/index.js"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://github.com/olahol/iso-3166-2.js/raw/master/LICENSE"
-    }
-  ]
+  }
 }

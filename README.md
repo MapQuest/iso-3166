@@ -1,10 +1,10 @@
 # iso-3166-2.js
 
-[![NPM version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Download Count][downloads-image]][downloads-url]
-
 > Lookup information about ISO-3166-2 subdivisions.
+
+### Fork Information
+
+_This package is a fork of [iso-3166-2](https://www.npmjs.com/package/iso-3166-2), which was originally created by [Ola Holmström](https://github.com/olahol). The original repository can be found [here](https://github.com/olahol/iso-3166-2.js). This fork is now maintained by MapQuest, and the original author is no longer involved in the maintenance of this package._
 
 ## Country code format
 
@@ -150,18 +150,3 @@ The ISO 3166-1 alpha 3 to alpha 2 conversion table, the layout is:
   country code (alpha 3): country code (alpha 2)
 }
 ```
-
-## Contributors
-
-* Ola Holmström (@olahol)
-* Ben Ilegbodu (@benmvp)
-* David García (@davidgf)
-* lhchavez (@lhchavez)
-* Peter Pinch (@pdpinch)
-
-[npm-image]: https://img.shields.io/npm/v/iso-3166-2.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/iso-3166-2
-[downloads-image]: http://img.shields.io/npm/dm/iso-3166-2.svg?style=flat-square
-[downloads-url]: https://npmjs.org/package/iso-3166-2
-[travis-image]: https://img.shields.io/travis/olahol/iso-3166-2.js/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/olahol/iso-3166-2.js
