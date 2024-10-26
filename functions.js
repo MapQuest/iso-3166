@@ -1,4 +1,4 @@
-/*global data*/
+/* global data, define, codes */
 /*
 iso3166 API
 
@@ -17,115 +17,117 @@ The layout of data is:
 }
 */
 
-var functions = {
+const functions = {
   subdivision: function (country, code) {
     // If `code` is undefined assume that the full code is in `country`
-    if (typeof code === "undefined") {
+    if (typeof code === 'undefined') {
       // our iso-3166-2 data is in upper case.
-      code = country.trim().toUpperCase();
+      code = country.trim().toUpperCase()
 
-      var parts = code.split("-");
+      const parts = code.split('-')
 
       // A full subdivision code must have exactly two parts.
       if (parts.length !== 2) {
-        return {};
+        return {}
       }
 
-      country = parts[0];
-      code = parts[1];
+      country = parts[0]
+      code = parts[1]
     }
 
     // ISO-3166-1 alpha 3 code?
     if (country.length === 3) {
-      country = codes[country];
+      country = codes[country]
     }
 
-    var subCode = country + "-" + code;
+    let subCode = country + '-' + code
 
     // This country code does not exist in our data set.
     if (!(country in data)) {
-      return null;
+      return null
     }
 
     // All of a countries subdivisions.
-    var subs = data[country].sub;
+    const subs = data[country].sub
 
-    var record = subs[subCode];
+    let record = subs[subCode]
 
     // If we could not find the subdivision by its code try testing
     // subdivision names.
-    if (typeof record === "undefined") {
-      for (var key in subs) {
-        if (subs.hasOwnProperty(key) &&
+    if (typeof record === 'undefined') {
+      for (const key in subs) {
+        if (Object.prototype.hasOwnProperty.call(subs, key) &&
             subs[key].name.toUpperCase() === code.toUpperCase()) {
-          record = subs[key];
-          subCode = key;
-          break;
+          record = subs[key]
+          subCode = key
+          break
         }
       }
 
       // If we still couldn't find it return empty record.
-      if (typeof record === "undefined") {
-        return null;
+      if (typeof record === 'undefined') {
+        return null
       }
     }
 
     // Add some useful data.
-    record.countryName = data[country].name;
-    record.countryCode = country;
-    record.code = subCode;
-    record.regionCode = subCode.split("-").length === 2 ?
-      subCode.split("-")[1] : "";
+    record.countryName = data[country].name
+    record.countryCode = country
+    record.code = subCode
+    record.regionCode = subCode.split('-').length === 2
+      ? subCode.split('-')[1]
+      : ''
 
-    return record;
+    return record
   },
 
   // Get a country and all its subdivision by its code.
   country: function (code) {
-    code = code.trim().toUpperCase();
+    let record
+    code = code.trim().toUpperCase()
 
     // is the input code in alpha 3?
     if (code.length === 3) {
-      code = codes[code];
+      code = codes[code]
     }
 
     if (code in data) {
-      var record = data[code];
-      record.code = code;
+      record = data[code]
+      record.code = code
 
-      return record;
+      return record
     }
 
     // If we could not find the country by its code try testing
     // country names.
-    for (var countryCode in data) {
-      if (data.hasOwnProperty(countryCode) &&
+    for (const countryCode in data) {
+      if (Object.prototype.hasOwnProperty.call(data, countryCode) &&
           data[countryCode].name.toUpperCase() === code.toUpperCase()) {
-        record = data[countryCode];
-        record.code = countryCode;
-        break;
+        record = data[countryCode]
+        record.code = countryCode
+        break
       }
     }
 
     // If we still couldn't find it return empty record.
-    if (typeof record === "undefined") {
-      return null;
+    if (typeof record === 'undefined') {
+      return null
     }
 
-    return record;
+    return record
   },
 
   // Raw data.
-  data: data,
-  codes: codes
-};
+  data,
+  codes
+}
 
 if (typeof define === 'function' && define.amd) {
-  define(function() {
-    return functions;
-  });
-} else if (typeof module === "object" && module !== null) {
-  module.exports = functions;
+  define(function () {
+    return functions
+  })
+} else if (typeof module === 'object' && module !== null) {
+  module.exports = functions
 } else {
-  window.iso3166 = functions;
+  window.iso3166 = functions
 }
