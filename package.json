@@ -10,8 +10,10 @@
     "test": "jest ."
   },
   "devDependencies": {
-    "@mapquest/team": "^0.3.8",
     "tinybench": "^2.9.0",
     "uglify-js": "^3.19.3"
+  },
+  "optionalDependencies": {
+    "@mapquest/team": "^0.3.8"
   }
 }
