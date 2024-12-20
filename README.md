@@ -150,3 +150,8 @@ The ISO 3166-1 alpha 3 to alpha 2 conversion table, the layout is:
   country code (alpha 3): country code (alpha 2)
 }
 ```
+
+## References
+
+https://en.wikipedia.org/wiki/Country_codes:_U%E2%80%93Z#_United_States
+https://www.iso.org/obp/ui/#iso:code:3166:JP

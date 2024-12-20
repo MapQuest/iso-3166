@@ -1989,53 +1989,7 @@ Jamaica,JM-11,Saint Elizabeth,Parish,JM
 Jamaica,JM-12,Manchester,Parish,JM
 Jamaica,JM-13,Clarendon,Parish,JM
 Jamaica,JM-14,Saint Catherine,Parish,JM
-Japan,JP-01,Hokkaido,Prefecture,JP
-Japan,JP-02,Aomori,Prefecture,JP
-Japan,JP-03,Iwate,Prefecture,JP
-Japan,JP-04,Miyagi,Prefecture,JP
-Japan,JP-05,Akita,Prefecture,JP
-Japan,JP-06,Yamagata,Prefecture,JP
-Japan,JP-07,Fukushima,Prefecture,JP
-Japan,JP-08,Ibaraki,Prefecture,JP
-Japan,JP-09,Tochigi,Prefecture,JP
-Japan,JP-10,Gunma,Prefecture,JP
-Japan,JP-11,Saitama,Prefecture,JP
-Japan,JP-12,Chiba,Prefecture,JP
-Japan,JP-13,Tôkyô,Prefecture,JP
-Japan,JP-14,Kanagawa,Prefecture,JP
-Japan,JP-15,Niigata,Prefecture,JP
-Japan,JP-16,Toyama,Prefecture,JP
-Japan,JP-17,Ishikawa,Prefecture,JP
-Japan,JP-18,Fukui,Prefecture,JP
-Japan,JP-19,Yamanashi,Prefecture,JP
-Japan,JP-20,Nagano,Prefecture,JP
-Japan,JP-21,Gifu,Prefecture,JP
-Japan,JP-22,Shizuoka,Prefecture,JP
-Japan,JP-23,Aichi,Prefecture,JP
-Japan,JP-24,Mie,Prefecture,JP
-Japan,JP-25,Shiga,Prefecture,JP
-Japan,JP-26,Kyoto,Prefecture,JP
-Japan,JP-27,Osaka,Prefecture,JP
-Japan,JP-28,Hyogo,Prefecture,JP
-Japan,JP-29,Nara,Prefecture,JP
-Japan,JP-30,Wakayama,Prefecture,JP
-Japan,JP-31,Tottori,Prefecture,JP
-Japan,JP-32,Shimane,Prefecture,JP
-Japan,JP-33,Okayama,Prefecture,JP
-Japan,JP-34,Hiroshima,Prefecture,JP
-Japan,JP-35,Yamaguchi,Prefecture,JP
-Japan,JP-36,Tokushima,Prefecture,JP
-Japan,JP-37,Kagawa,Prefecture,JP
-Japan,JP-38,Ehime,Prefecture,JP
-Japan,JP-39,Kochi,Prefecture,JP
-Japan,JP-40,Fukuoka,Prefecture,JP
-Japan,JP-41,Saga,Prefecture,JP
-Japan,JP-42,Nagasaki,Prefecture,JP
-Japan,JP-43,Kumamoto,Prefecture,JP
-Japan,JP-44,Oita,Prefecture,JP
-Japan,JP-45,Miyazaki,Prefecture,JP
-Japan,JP-46,Kagoshima,Prefecture,JP
-Japan,JP-47,Okinawa,Prefecture,JP
+
 Jersey,JE-JE,Jersey,Country,JE
 Jordan,JO-AJ,ʽAjlūn,Governorate,JO
 Jordan,JO-AM,‘Ammān,Governorate,JO
@@ -2143,7 +2097,6 @@ Kiribati,KI-P,Phoenix Islands,Group of islands,KI
 "Korea, Republic of",KR-48,Gyeongsangnamdo,Province,KR
 "Korea, Republic of",KR-49,Cheju-do,Special self-governing province,KR
 "Korea, Republic of",KR-50,Sejong,Special self-governing city,KR
-Kosovo,XK-XK,Kosovo,country,XK
 Kuwait,KW-AH,Al Aḩmadī,Governorate,KW
 Kuwait,KW-FA,Al Farwānīyah,Governorate,KW
 Kuwait,KW-HA,Ḩawallī,Governorate,KW
@@ -4859,63 +4812,6 @@ United States Minor Outlying Islands,UM-84,Howland Island,"Islands, groups of is
 United States Minor Outlying Islands,UM-86,Jarvis Island,"Islands, groups of islands",UM
 United States Minor Outlying Islands,UM-89,Kingman Reef,"Islands, groups of islands",UM
 United States Minor Outlying Islands,UM-95,Palmyra Atoll,"Islands, groups of islands",UM
-United States,US-AK,Alaska,State,US
-United States,US-AL,Alabama,State,US
-United States,US-AR,Arkansas,State,US
-United States,US-AS,American Samoa,Outlying area,US
-United States,US-AZ,Arizona,State,US
-United States,US-CA,California,State,US
-United States,US-CO,Colorado,State,US
-United States,US-CT,Connecticut,State,US
-United States,US-DC,District of Columbia,District,US
-United States,US-DE,Delaware,State,US
-United States,US-FL,Florida,State,US
-United States,US-GA,Georgia,State,US
-United States,US-GU,Guam,Outlying area,US
-United States,US-HI,Hawaii,State,US
-United States,US-IA,Iowa,State,US
-United States,US-ID,Idaho,State,US
-United States,US-IL,Illinois,State,US
-United States,US-IN,Indiana,State,US
-United States,US-KS,Kansas,State,US
-United States,US-KY,Kentucky,State,US
-United States,US-LA,Louisiana,State,US
-United States,US-MA,Massachusetts,State,US
-United States,US-MD,Maryland,State,US
-United States,US-ME,Maine,State,US
-United States,US-MI,Michigan,State,US
-United States,US-MN,Minnesota,State,US
-United States,US-MO,Missouri,State,US
-United States,US-MP,Northern Mariana Islands,Outlying area,US
-United States,US-MS,Mississippi,State,US
-United States,US-MT,Montana,State,US
-United States,US-NC,North Carolina,State,US
-United States,US-ND,North Dakota,State,US
-United States,US-NE,Nebraska,State,US
-United States,US-NH,New Hampshire,State,US
-United States,US-NJ,New Jersey,State,US
-United States,US-NM,New Mexico,State,US
-United States,US-NV,Nevada,State,US
-United States,US-NY,New York,State,US
-United States,US-OH,Ohio,State,US
-United States,US-OK,Oklahoma,State,US
-United States,US-OR,Oregon,State,US
-United States,US-PA,Pennsylvania,State,US
-United States,US-PR,Puerto Rico,Outlying area,US
-United States,US-RI,Rhode Island,State,US
-United States,US-SC,South Carolina,State,US
-United States,US-SD,South Dakota,State,US
-United States,US-TN,Tennessee,State,US
-United States,US-TX,Texas,State,US
-United States,US-UM,United States Minor Outlying Islands,Outlying area,US
-United States,US-UT,Utah,State,US
-United States,US-VA,Virginia,State,US
-United States,US-VI,"Virgin Islands, U.S.",Outlying area,US
-United States,US-VT,Vermont,State,US
-United States,US-WA,Washington,State,US
-United States,US-WI,Wisconsin,State,US
-United States,US-WV,West Virginia,State,US
-United States,US-WY,Wyoming,State,US
 Uruguay,UY-AR,Artigas,Department,UY
 Uruguay,UY-CA,Canelones,Department,UY
 Uruguay,UY-CL,Cerro Largo,Department,UY
