@@ -1,13 +1,14 @@
 {
-  "name": "iso-3166",
+  "name": "@mapquest/iso-3166",
   "description": "Lookup information about ISO-3166-2 subdivisions.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "repository": "github:MapQuest/iso-3166",
   "main": "./iso3166.min.js",
   "scripts": {
     "benchmark": "node ./benchmark/index.js",
-    "test": "jest ."
+    "test": "jest .",
+    "prepublish": "make"
   },
   "devDependencies": {
     "tinybench": "^2.9.0",
