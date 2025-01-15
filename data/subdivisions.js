@@ -1,8 +1,16 @@
 export default {
+  BOROUGH: 'Borough',
+  CITY: 'City',
+  COUNTY: 'County',
+  DEPARTMENT: 'Department',
   DISTRICT: 'District',
+  METROPOLITAN: 'Metropolitan District',
+  OUTLYING_AREA: 'Outlying Area',
   PARISH: 'Parish',
   PREFECTURE: 'Prefecture',
   PROVINCE: 'Province',
+  REGION: 'Region',
   STATE: 'State',
-  OUTLYING_AREA: 'Outlying Area'
+  TERRITORY: 'Territory',
+  UNITARY: 'Unitary Authority'
 }
