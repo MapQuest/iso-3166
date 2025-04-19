@@ -1,6 +1,7 @@
 export default {
   AUTONOMOUS_REGION: 'Autonomous Region',
   BOROUGH: 'Borough',
+  CAPITAL_CITY: 'Capital City',
   CITY: 'City',
   COUNTY: 'County',
   DEPARTMENT: 'Department',
@@ -18,6 +19,7 @@ export default {
   PROVINCE: 'Province',
   REGION: 'Region',
   SPECIAL_ADMINISTRATIVE_REGION: 'Special Administrative Region',
+  SPECIAL_CITY: 'Special City',
   STATE: 'State',
   TERRITORY: 'Territory',
   TOWN_COUNCIL: 'Town Council',
