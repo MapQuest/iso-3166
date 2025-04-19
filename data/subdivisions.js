@@ -11,6 +11,7 @@ export default {
   ISLAND: 'Island',
   ISLAND_COUNCIL: 'Island Council',
   ISLAND_GROUP: 'Island Group',
+  KINGDOM: 'Kingdom',
   METROPOLITAN: 'Metropolitan District',
   MUNICIPALITY: 'Municipality',
   OUTLYING_AREA: 'Outlying Area',
