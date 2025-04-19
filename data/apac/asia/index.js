@@ -1,5 +1,6 @@
 export { default as AFG } from './afg'
 export { default as BGD } from './bgd'
+export { default as BRN } from './brn'
 export { default as BTN } from './btn'
 export { default as CHN } from './chn'
 export { default as IDN } from './idn'
