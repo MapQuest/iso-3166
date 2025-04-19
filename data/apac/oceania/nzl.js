@@ -13,7 +13,6 @@ export default {
     ['AUK', ['Auckland', Subdivisions.REGION]],
     ['BOP', ['Bay of Plenty', Subdivisions.REGION]],
     ['CAN', ['Canterbury', Subdivisions.REGION]],
-    ['CIT', ['Chatham Islands Territory', Subdivisions.TERRITORY]],
     ['GIS', ['Gisborne', Subdivisions.REGION]],
     ['HKB', ['Hawke\'s Bay', Subdivisions.REGION]],
     ['MBH', ['Marlborough', Subdivisions.REGION]],
@@ -26,6 +25,7 @@ export default {
     ['TKI', ['Taranaki', Subdivisions.REGION]],
     ['WGN', ['Wellington', Subdivisions.REGION]],
     ['WKO', ['Waikato', Subdivisions.REGION]],
-    ['WTC', ['West Coast', Subdivisions.REGION]]
+    ['WTC', ['West Coast', Subdivisions.REGION]],
+    ['CIT', ['Chatham Islands', Subdivisions.TERRITORY]]
   ])
 }
