@@ -7,6 +7,7 @@ export default {
   DEPENDENCY: 'Dependency',
   DISTRICT: 'District',
   DIVISION: 'Division',
+  ISLAND_COUNCIL: 'Island Council',
   ISLAND_GROUP: 'Island Group',
   METROPOLITAN: 'Metropolitan District',
   MUNICIPALITY: 'Municipality',
@@ -18,5 +19,6 @@ export default {
   SPECIAL_ADMINISTRATIVE_REGION: 'Special Administrative Region',
   STATE: 'State',
   TERRITORY: 'Territory',
+  TOWN_COUNCIL: 'Town Council',
   UNITARY: 'Unitary Authority'
 }
