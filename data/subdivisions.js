@@ -25,5 +25,6 @@ export default {
   TERRITORY: 'Territory',
   TOWN_COUNCIL: 'Town Council',
   UNITARY: 'Unitary Authority',
-  VILLAGE: 'Village'
+  VILLAGE: 'Village',
+  ZONE: 'Zone'
 }
