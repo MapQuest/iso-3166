@@ -1,0 +1,34 @@
+import Subdivisions from '../../subdivisions'
+
+export default {
+  country: 'Bhutan',
+  e164: 975,
+  fips: 'BT',
+  alpha2: 'BT',
+  alpha3: 'BTN',
+  ioc: 'BHU',
+  numeric: 64,
+  undp: 'BTN',
+  localities: new Map([
+    ['11', ['Paro', Subdivisions.DISTRICT]],
+    ['12', ['Chhukha', Subdivisions.DISTRICT]],
+    ['13', ['Haa', Subdivisions.DISTRICT]],
+    ['14', ['Samtse', Subdivisions.DISTRICT]],
+    ['15', ['Thimphu', Subdivisions.DISTRICT]],
+    ['21', ['Tsirang', Subdivisions.DISTRICT]],
+    ['22', ['Dagana', Subdivisions.DISTRICT]],
+    ['23', ['Punakha', Subdivisions.DISTRICT]],
+    ['24', ['Wangdue Phodrang', Subdivisions.DISTRICT]],
+    ['31', ['Sarpang', Subdivisions.DISTRICT]],
+    ['32', ['Trongsa', Subdivisions.DISTRICT]],
+    ['33', ['Bumthang', Subdivisions.DISTRICT]],
+    ['34', ['Zhemgang', Subdivisions.DISTRICT]],
+    ['41', ['Trashigang', Subdivisions.DISTRICT]],
+    ['42', ['Mongar', Subdivisions.DISTRICT]],
+    ['43', ['Pemagatshel', Subdivisions.DISTRICT]],
+    ['44', ['Lhuentse', Subdivisions.DISTRICT]],
+    ['45', ['Samdrup Jongkhar', Subdivisions.DISTRICT]],
+    ['GA', ['Gasa', Subdivisions.DISTRICT]],
+    ['TY', ['Trashi Yangtse', Subdivisions.DISTRICT]]
+  ])
+}
