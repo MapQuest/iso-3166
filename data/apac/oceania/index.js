@@ -1,6 +1,7 @@
 export { default as ASM } from './asm'
 export { default as AUS } from './aus'
 export { default as COK } from './cok'
+export { default as CXR } from './cxr'
 export { default as FJI } from './fji'
 export { default as FSM } from './fsm'
 export { default as GUM } from './gum'
