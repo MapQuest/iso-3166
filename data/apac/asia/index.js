@@ -1,4 +1,5 @@
 export { default as AFG } from './afg'
+export { default as BGD } from './bgd'
 export { default as CHN } from './chn'
 export { default as IDN } from './idn'
 export { default as IND } from './ind'
