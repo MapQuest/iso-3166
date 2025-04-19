@@ -1,4 +1,5 @@
 export default {
+  AUTONOMOUS_REGION: 'Autonomous Region',
   BOROUGH: 'Borough',
   CITY: 'City',
   COUNTY: 'County',
