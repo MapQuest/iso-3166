@@ -1,7 +1,7 @@
 import Subdivisions from '../../subdivisions'
 
 export default {
-  country: 'Micronesia',
+  country: 'Micronesia, Federated States of',
   e164: 691,
   fips: 'FM',
   alpha2: 'FM',

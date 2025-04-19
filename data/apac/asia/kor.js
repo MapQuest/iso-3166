@@ -1,7 +1,7 @@
 import Subdivisions from '../../subdivisions'
 
 export default {
-  country: 'South Korea',
+  country: 'Korea, Republic of',
   e164: 82,
   fips: 'KS',
   alpha2: 'KR',
