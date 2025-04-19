@@ -5,6 +5,7 @@ export default {
   DEPARTMENT: 'Department',
   DISTRICT: 'District',
   METROPOLITAN: 'Metropolitan District',
+  MUNICIPALITY: 'Municipality',
   OUTLYING_AREA: 'Outlying Area',
   PARISH: 'Parish',
   PREFECTURE: 'Prefecture',
