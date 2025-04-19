@@ -11,6 +11,7 @@ export default {
   PREFECTURE: 'Prefecture',
   PROVINCE: 'Province',
   REGION: 'Region',
+  SPECIAL_ADMINISTRATIVE_REGION: 'Special Administrative Region',
   STATE: 'State',
   TERRITORY: 'Territory',
   UNITARY: 'Unitary Authority'
