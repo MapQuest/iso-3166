@@ -1,5 +1,6 @@
 export { default as AUS } from './aus'
 export { default as FJI } from './fji'
+export { default as KIR } from './kir'
 export { default as NZL } from './nzl'
 export { default as PNG } from './png'
 export { default as SLB } from './slb'

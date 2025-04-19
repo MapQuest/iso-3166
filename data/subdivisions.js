@@ -7,6 +7,7 @@ export default {
   DEPENDENCY: 'Dependency',
   DISTRICT: 'District',
   DIVISION: 'Division',
+  ISLAND_GROUP: 'Island Group',
   METROPOLITAN: 'Metropolitan District',
   MUNICIPALITY: 'Municipality',
   OUTLYING_AREA: 'Outlying Area',
