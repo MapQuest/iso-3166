@@ -1,5 +1,6 @@
 export { default as ASM } from './asm'
 export { default as AUS } from './aus'
+export { default as CCK } from './cck'
 export { default as COK } from './cok'
 export { default as CXR } from './cxr'
 export { default as FJI } from './fji'
