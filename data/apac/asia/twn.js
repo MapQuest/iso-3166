@@ -1,0 +1,36 @@
+import Subdivisions from '../../subdivisions'
+
+export default {
+  country: 'Taiwan',
+  e164: 886,
+  fips: 'TW',
+  alpha2: 'TW',
+  alpha3: 'TWN',
+  ioc: 'TPE',
+  numeric: 158,
+  undp: 'TWN',
+  localities: new Map([
+    ['CHA', ['Changhua', Subdivisions.COUNTY]],
+    ['CYI', ['Chiayi', Subdivisions.CITY]],
+    ['CYQ', ['Chiayi', Subdivisions.COUNTY]],
+    ['HSZ', ['Hsinchu', Subdivisions.CITY]],
+    ['HSQ', ['Hsinchu', Subdivisions.COUNTY]],
+    ['HUA', ['Hualien', Subdivisions.COUNTY]],
+    ['KHH', ['Kaohsiung', Subdivisions.CITY]],
+    ['KEE', ['Keelung', Subdivisions.CITY]],
+    ['KIN', ['Kinmen', Subdivisions.COUNTY]],
+    ['LIE', ['Lienchiang', Subdivisions.COUNTY]],
+    ['MIA', ['Miaoli', Subdivisions.COUNTY]],
+    ['NAN', ['Nantou', Subdivisions.COUNTY]],
+    ['NWT', ['New Taipei', Subdivisions.CITY]],
+    ['PEN', ['Penghu', Subdivisions.COUNTY]],
+    ['PIF', ['Pingtung', Subdivisions.COUNTY]],
+    ['TXG', ['Taichung', Subdivisions.CITY]],
+    ['TNN', ['Tainan', Subdivisions.CITY]],
+    ['TPE', ['Taipei', Subdivisions.CITY]],
+    ['TTT', ['Taitung', Subdivisions.COUNTY]],
+    ['TAO', ['Taoyuan', Subdivisions.CITY]],
+    ['ILA', ['Yilan', Subdivisions.COUNTY]],
+    ['YUN', ['Yunlin', Subdivisions.COUNTY]]
+  ])
+}
