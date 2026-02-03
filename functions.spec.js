@@ -4,19 +4,19 @@ test('country()', () => {
   expect(iso3166.country('SE'))
     .toStrictEqual(expect.objectContaining({
       code: 'SE',
-      name: 'Sweden'
+      name: 'Sweden',
     }))
 
   expect(iso3166.country('SWE'))
     .toStrictEqual(expect.objectContaining({
       code: 'SE',
-      name: 'Sweden'
+      name: 'Sweden',
     }))
 
   expect(iso3166.country('Sweden'))
     .toStrictEqual(expect.objectContaining({
       code: 'SE',
-      name: 'Sweden'
+      name: 'Sweden',
     }))
 
   expect(iso3166.country('UN')).toBe(null)
@@ -30,7 +30,7 @@ test('subdivision()', () => {
       countryName: 'Sweden',
       code: 'SE-O',
       regionCode: 'O',
-      name: 'Västra Götalands län'
+      name: 'Västra Götalands län',
     }))
 
   expect(iso3166.subdivision('SWE-O'))
@@ -39,7 +39,7 @@ test('subdivision()', () => {
       countryName: 'Sweden',
       code: 'SE-O',
       regionCode: 'O',
-      name: 'Västra Götalands län'
+      name: 'Västra Götalands län',
     }))
 
   expect(iso3166.subdivision('SE', 'O'))
@@ -48,7 +48,7 @@ test('subdivision()', () => {
       countryName: 'Sweden',
       code: 'SE-O',
       regionCode: 'O',
-      name: 'Västra Götalands län'
+      name: 'Västra Götalands län',
     }))
 
   expect(iso3166.subdivision('US-IN'))
@@ -57,7 +57,7 @@ test('subdivision()', () => {
       countryName: 'United States',
       code: 'US-IN',
       regionCode: 'IN',
-      name: 'Indiana'
+      name: 'Indiana',
     }))
 
   expect(iso3166.subdivision('US', 'IN'))
@@ -66,7 +66,7 @@ test('subdivision()', () => {
       countryName: 'United States',
       code: 'US-IN',
       regionCode: 'IN',
-      name: 'Indiana'
+      name: 'Indiana',
     }))
 
   expect(iso3166.subdivision('US-Indiana'))
@@ -75,7 +75,7 @@ test('subdivision()', () => {
       countryName: 'United States',
       code: 'US-IN',
       regionCode: 'IN',
-      name: 'Indiana'
+      name: 'Indiana',
     }))
 
   expect(iso3166.subdivision('USA-Indiana'))
@@ -84,7 +84,7 @@ test('subdivision()', () => {
       countryName: 'United States',
       code: 'US-IN',
       regionCode: 'IN',
-      name: 'Indiana'
+      name: 'Indiana',
     }))
 
   expect(iso3166.subdivision('US', 'Indiana'))
@@ -93,7 +93,7 @@ test('subdivision()', () => {
       countryName: 'United States',
       code: 'US-IN',
       regionCode: 'IN',
-      name: 'Indiana'
+      name: 'Indiana',
     }))
 
   expect(iso3166.subdivision('USA', 'Indiana'))
@@ -102,7 +102,7 @@ test('subdivision()', () => {
       countryName: 'United States',
       code: 'US-IN',
       regionCode: 'IN',
-      name: 'Indiana'
+      name: 'Indiana',
     }))
 
   expect(iso3166.subdivision('UN-1')).toBe(null)

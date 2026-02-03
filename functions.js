@@ -119,7 +119,7 @@ const functions = {
 
   // Raw data.
   data,
-  codes
+  codes,
 }
 
 if (typeof define === 'function' && define.amd) {
