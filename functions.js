@@ -94,6 +94,7 @@ const functions = {
     if (code in data) {
       record = data[code]
       record.code = code
+      record.alpha3 = functions.alpha3[code]
 
       return record
     }
@@ -105,6 +106,7 @@ const functions = {
           data[countryCode].name.toUpperCase() === code.toUpperCase()) {
         record = data[countryCode]
         record.code = countryCode
+        record.alpha3 = functions.alpha3[countryCode]
         break
       }
     }
@@ -120,6 +122,8 @@ const functions = {
   // Raw data.
   data,
   codes,
+  // Reverse lookup: alpha2 -> alpha3
+  alpha3: Object.fromEntries(Object.entries(codes).map(([a3, a2]) => [a2, a3])),
 }
 
 if (typeof define === 'function' && define.amd) {

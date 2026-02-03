@@ -5,18 +5,21 @@ test('country()', () => {
     .toStrictEqual(expect.objectContaining({
       code: 'SE',
       name: 'Sweden',
+      alpha3: 'SWE',
     }))
 
   expect(iso3166.country('SWE'))
     .toStrictEqual(expect.objectContaining({
       code: 'SE',
       name: 'Sweden',
+      alpha3: 'SWE',
     }))
 
   expect(iso3166.country('Sweden'))
     .toStrictEqual(expect.objectContaining({
       code: 'SE',
       name: 'Sweden',
+      alpha3: 'SWE',
     }))
 
   expect(iso3166.country('UN')).toBe(null)
