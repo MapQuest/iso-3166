@@ -3,3 +3,4 @@ node_modules
 *.min.js
 coverage/
 data.js
+dist/

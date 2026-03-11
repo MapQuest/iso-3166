@@ -1,0 +1,33 @@
+/** ISO-3166 subdivision type classifications */
+export const Subdivisions = {
+  AUTONOMOUS_REGION: 'Autonomous Region',
+  BOROUGH: 'Borough',
+  CAPITAL: 'Capital City',
+  CITY: 'City',
+  COUNTY: 'County',
+  DEPARTMENT: 'Department',
+  DEPENDENCY: 'Dependency',
+  DISTRICT: 'District',
+  DIVISION: 'Division',
+  ISLAND: 'Island',
+  ISLAND_COUNCIL: 'Island Council',
+  ISLAND_GROUP: 'Island Group',
+  KINGDOM: 'Kingdom',
+  METROPOLITAN: 'Metropolitan District',
+  MUNICIPALITY: 'Municipality',
+  OUTLYING_AREA: 'Outlying Area',
+  PARISH: 'Parish',
+  PREFECTURE: 'Prefecture',
+  PROVINCE: 'Province',
+  REGION: 'Region',
+  SPECIAL_ADMINISTRATIVE_REGION: 'Special Administrative Region',
+  SPECIAL_CITY: 'Special City',
+  STATE: 'State',
+  TERRITORY: 'Territory',
+  TOWN_COUNCIL: 'Town Council',
+  UNITARY: 'Unitary Authority',
+  VILLAGE: 'Village',
+  ZONE: 'Zone'
+} as const
+
+export type SubdivisionType = typeof Subdivisions[keyof typeof Subdivisions]

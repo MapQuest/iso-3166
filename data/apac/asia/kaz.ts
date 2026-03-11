@@ -1,0 +1,35 @@
+import type { Country } from '../../types.js'
+import { Subdivisions } from '../../subdivisions.js'
+
+export const KAZ: Country = {
+  country: 'Kazakhstan',
+  e164: 7,
+  fips: 'KZ',
+  alpha2: 'KZ',
+  alpha3: 'KAZ',
+  ioc: 'KAZ',
+  numeric: 398,
+  undp: 'KAZ',
+  localities: new Map([
+    ['ALA', ['Almaty', Subdivisions.CITY]],
+    ['AST', ['Astana', Subdivisions.CITY]],
+    ['SHY', ['Shymkent', Subdivisions.CITY]],
+    ['ALM', ['Almaty', Subdivisions.REGION]],
+    ['AKM', ['Akmola', Subdivisions.REGION]],
+    ['AKT', ['Aktobe', Subdivisions.REGION]],
+    ['ATY', ['Atyrau', Subdivisions.REGION]],
+    ['ZAP', ['West Kazakhstan', Subdivisions.REGION]],
+    ['MAN', ['Mangystau', Subdivisions.REGION]],
+    ['YUZ', ['Turkistan', Subdivisions.REGION]],
+    ['ZHA', ['Zhambyl', Subdivisions.REGION]],
+    ['KAR', ['Karaganda', Subdivisions.REGION]],
+    ['KUS', ['Kostanay', Subdivisions.REGION]],
+    ['KZY', ['Kyzylorda', Subdivisions.REGION]],
+    ['PAV', ['Pavlodar', Subdivisions.REGION]],
+    ['SEV', ['North Kazakhstan', Subdivisions.REGION]],
+    ['VOS', ['East Kazakhstan', Subdivisions.REGION]],
+    ['ZAP', ['Abai', Subdivisions.REGION]],
+    ['YET', ['Zhetysu', Subdivisions.REGION]],
+    ['ULS', ['Ulytau', Subdivisions.REGION]]
+  ])
+}

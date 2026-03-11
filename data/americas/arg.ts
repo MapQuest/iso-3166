@@ -1,0 +1,39 @@
+import type { Country } from '../types.js'
+import { Subdivisions } from '../subdivisions.js'
+
+export const ARG: Country = {
+  country: 'Argentina',
+  e164: 54,
+  fips: 'AR',
+  alpha2: 'AR',
+  alpha3: 'ARG',
+  ioc: 'ARG',
+  numeric: 32,
+  undp: 'ARG',
+  localities: new Map([
+    ['A', ['Salta', Subdivisions.PROVINCE]],
+    ['B', ['Buenos Aires', Subdivisions.PROVINCE]],
+    ['C', ['Ciudad Autónoma de Buenos Aires', Subdivisions.CITY]],
+    ['D', ['San Luis', Subdivisions.PROVINCE]],
+    ['E', ['Entre Ríos', Subdivisions.PROVINCE]],
+    ['F', ['La Rioja', Subdivisions.PROVINCE]],
+    ['G', ['Santiago del Estero', Subdivisions.PROVINCE]],
+    ['H', ['Chaco', Subdivisions.PROVINCE]],
+    ['J', ['San Juan', Subdivisions.PROVINCE]],
+    ['K', ['Catamarca', Subdivisions.PROVINCE]],
+    ['L', ['La Pampa', Subdivisions.PROVINCE]],
+    ['M', ['Mendoza', Subdivisions.PROVINCE]],
+    ['N', ['Misiones', Subdivisions.PROVINCE]],
+    ['P', ['Formosa', Subdivisions.PROVINCE]],
+    ['Q', ['Neuquén', Subdivisions.PROVINCE]],
+    ['R', ['Río Negro', Subdivisions.PROVINCE]],
+    ['S', ['Santa Fe', Subdivisions.PROVINCE]],
+    ['T', ['Tucumán', Subdivisions.PROVINCE]],
+    ['U', ['Chubut', Subdivisions.PROVINCE]],
+    ['V', ['Tierra del Fuego', Subdivisions.PROVINCE]],
+    ['W', ['Corrientes', Subdivisions.PROVINCE]],
+    ['X', ['Córdoba', Subdivisions.PROVINCE]],
+    ['Y', ['Jujuy', Subdivisions.PROVINCE]],
+    ['Z', ['Santa Cruz', Subdivisions.PROVINCE]]
+  ])
+}

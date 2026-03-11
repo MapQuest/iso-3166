@@ -1,0 +1,42 @@
+import type { Country } from '../types.js'
+import { Subdivisions } from '../subdivisions.js'
+
+export const BRA: Country = {
+  country: 'Brazil',
+  e164: 55,
+  fips: 'BR',
+  alpha2: 'BR',
+  alpha3: 'BRA',
+  ioc: 'BRA',
+  numeric: 76,
+  undp: 'BRA',
+  localities: new Map([
+    ['AC', ['Acre', Subdivisions.STATE]],
+    ['AL', ['Alagoas', Subdivisions.STATE]],
+    ['AM', ['Amazonas', Subdivisions.STATE]],
+    ['AP', ['Amapá', Subdivisions.STATE]],
+    ['BA', ['Bahia', Subdivisions.STATE]],
+    ['CE', ['Ceará', Subdivisions.STATE]],
+    ['DF', ['Distrito Federal', Subdivisions.DISTRICT]],
+    ['ES', ['Espírito Santo', Subdivisions.STATE]],
+    ['GO', ['Goiás', Subdivisions.STATE]],
+    ['MA', ['Maranhão', Subdivisions.STATE]],
+    ['MG', ['Minas Gerais', Subdivisions.STATE]],
+    ['MS', ['Mato Grosso do Sul', Subdivisions.STATE]],
+    ['MT', ['Mato Grosso', Subdivisions.STATE]],
+    ['PA', ['Pará', Subdivisions.STATE]],
+    ['PB', ['Paraíba', Subdivisions.STATE]],
+    ['PE', ['Pernambuco', Subdivisions.STATE]],
+    ['PI', ['Piauí', Subdivisions.STATE]],
+    ['PR', ['Paraná', Subdivisions.STATE]],
+    ['RJ', ['Rio de Janeiro', Subdivisions.STATE]],
+    ['RN', ['Rio Grande do Norte', Subdivisions.STATE]],
+    ['RO', ['Rondônia', Subdivisions.STATE]],
+    ['RR', ['Roraima', Subdivisions.STATE]],
+    ['RS', ['Rio Grande do Sul', Subdivisions.STATE]],
+    ['SC', ['Santa Catarina', Subdivisions.STATE]],
+    ['SE', ['Sergipe', Subdivisions.STATE]],
+    ['SP', ['São Paulo', Subdivisions.STATE]],
+    ['TO', ['Tocantins', Subdivisions.STATE]]
+  ])
+}

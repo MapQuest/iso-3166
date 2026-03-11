@@ -1,20 +1,67 @@
 {
   "name": "@mapquest/iso-3166",
   "description": "Lookup information about ISO-3166-2 subdivisions.",
-  "version": "1.1.0",
+  "version": "2.0.0-alpha.0",
   "license": "MIT",
   "repository": "github:MapQuest/iso-3166",
-  "main": "./iso3166.min.js",
+  "type": "module",
+  "main": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/src/index.d.ts",
+      "import": "./dist/src/index.js"
+    },
+    "./core": {
+      "types": "./dist/src/core.d.ts",
+      "import": "./dist/src/core.js"
+    },
+    "./regions": {
+      "types": "./dist/data/index.d.ts",
+      "import": "./dist/data/index.js"
+    },
+    "./americas": {
+      "types": "./dist/data/americas/index.d.ts",
+      "import": "./dist/data/americas/index.js"
+    },
+    "./apac": {
+      "types": "./dist/data/apac/index.d.ts",
+      "import": "./dist/data/apac/index.js"
+    },
+    "./apac/asia": {
+      "types": "./dist/data/apac/asia/index.d.ts",
+      "import": "./dist/data/apac/asia/index.js"
+    },
+    "./apac/oceania": {
+      "types": "./dist/data/apac/oceania/index.d.ts",
+      "import": "./dist/data/apac/oceania/index.js"
+    },
+    "./europe": {
+      "types": "./dist/data/europe/index.d.ts",
+      "import": "./dist/data/europe/index.js"
+    },
+    "./africa": {
+      "types": "./dist/data/africa/index.d.ts",
+      "import": "./dist/data/africa/index.js"
+    },
+    "./mena": {
+      "types": "./dist/data/mena/index.d.ts",
+      "import": "./dist/data/mena/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
     "benchmark": "node ./benchmark/index.js",
-    "test": "jest .",
-    "prepublish": "make"
+    "test": "jest ."
   },
   "devDependencies": {
+    "@mapquest/team": "^0.6.3",
     "tinybench": "^2.9.0",
+    "typescript": "^5.9.3",
     "uglify-js": "^3.19.3"
-  },
-  "optionalDependencies": {
-    "@mapquest/team": "^0.3.8"
   }
 }
