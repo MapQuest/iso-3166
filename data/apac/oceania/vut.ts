@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const VUT: Country = {
   country: 'Vanuatu',
@@ -16,6 +16,6 @@ export const VUT: Country = {
     ['SAM', ['Sanma', Subdivisions.PROVINCE]],
     ['SEE', ['Shefa', Subdivisions.PROVINCE]],
     ['TAE', ['Tafea', Subdivisions.PROVINCE]],
-    ['TOB', ['Torba', Subdivisions.PROVINCE]]
-  ])
+    ['TOB', ['Torba', Subdivisions.PROVINCE]],
+  ]),
 }

@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const BGD: Country = {
   country: 'Bangladesh',
@@ -82,6 +82,6 @@ export const BGD: Country = {
     ['61', ['Sunamganj', Subdivisions.DISTRICT]],
     ['62', ['Shariatpur', Subdivisions.DISTRICT]],
     ['63', ['Tangail', Subdivisions.DISTRICT]],
-    ['64', ['Thakurgaon', Subdivisions.DISTRICT]]
-  ])
+    ['64', ['Thakurgaon', Subdivisions.DISTRICT]],
+  ]),
 }

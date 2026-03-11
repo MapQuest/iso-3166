@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const TON: Country = {
   country: 'Tonga',
@@ -15,6 +15,6 @@ export const TON: Country = {
     ['02', ['Ha\'apai', Subdivisions.DIVISION]],
     ['03', ['Niuas', Subdivisions.DIVISION]],
     ['04', ['Tongatapu', Subdivisions.DIVISION]],
-    ['05', ['Vava\'u', Subdivisions.DIVISION]]
-  ])
+    ['05', ['Vava\'u', Subdivisions.DIVISION]],
+  ]),
 }

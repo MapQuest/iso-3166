@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const TUV: Country = {
   country: 'Tuvalu',
@@ -18,6 +18,6 @@ export const TUV: Country = {
     ['NMA', ['Nanumea', Subdivisions.ISLAND_COUNCIL]],
     ['NMG', ['Nanumaga', Subdivisions.ISLAND_COUNCIL]],
     ['NUI', ['Nui', Subdivisions.ISLAND_COUNCIL]],
-    ['VAI', ['Vaitupu', Subdivisions.ISLAND_COUNCIL]]
-  ])
+    ['VAI', ['Vaitupu', Subdivisions.ISLAND_COUNCIL]],
+  ]),
 }

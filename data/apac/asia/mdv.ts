@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const MDV: Country = {
   country: 'Maldives',
@@ -18,6 +18,6 @@ export const MDV: Country = {
     ['NC', ['North Central', Subdivisions.PROVINCE]],
     ['SC', ['South Central', Subdivisions.PROVINCE]],
     ['UP', ['Upper North', Subdivisions.PROVINCE]],
-    ['SU', ['Upper South', Subdivisions.PROVINCE]]
-  ])
+    ['SU', ['Upper South', Subdivisions.PROVINCE]],
+  ]),
 }

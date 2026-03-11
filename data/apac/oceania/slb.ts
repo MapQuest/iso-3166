@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const SLB: Country = {
   country: 'Solomon Islands',
@@ -20,6 +20,6 @@ export const SLB: Country = {
     ['ML', ['Malaita', Subdivisions.PROVINCE]],
     ['RB', ['Rennell and Bellona', Subdivisions.PROVINCE]],
     ['TE', ['Temotu', Subdivisions.PROVINCE]],
-    ['WE', ['Western', Subdivisions.PROVINCE]]
-  ])
+    ['WE', ['Western', Subdivisions.PROVINCE]],
+  ]),
 }

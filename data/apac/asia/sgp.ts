@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const SGP: Country = {
   country: 'Singapore',
@@ -15,6 +15,6 @@ export const SGP: Country = {
     ['02', ['North East', Subdivisions.DISTRICT]],
     ['03', ['North West', Subdivisions.DISTRICT]],
     ['04', ['South East', Subdivisions.DISTRICT]],
-    ['05', ['South West', Subdivisions.DISTRICT]]
-  ])
+    ['05', ['South West', Subdivisions.DISTRICT]],
+  ]),
 }

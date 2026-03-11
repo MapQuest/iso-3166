@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const VNM: Country = {
   country: 'Vietnam',
@@ -73,6 +73,6 @@ export const VNM: Country = {
     ['93', ['Hậu Giang', Subdivisions.PROVINCE]],
     ['94', ['Sóc Trăng', Subdivisions.PROVINCE]],
     ['95', ['Bạc Liêu', Subdivisions.PROVINCE]],
-    ['96', ['Cà Mau', Subdivisions.PROVINCE]]
-  ])
+    ['96', ['Cà Mau', Subdivisions.PROVINCE]],
+  ]),
 }

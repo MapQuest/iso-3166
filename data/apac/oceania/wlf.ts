@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const WLF: Country = {
   country: 'Wallis and Futuna',
@@ -13,6 +13,6 @@ export const WLF: Country = {
   localities: new Map([
     ['AL', ['Alo', Subdivisions.KINGDOM]],
     ['SG', ['Sigave', Subdivisions.KINGDOM]],
-    ['UV', ['Uvea', Subdivisions.KINGDOM]]
-  ])
+    ['UV', ['Uvea', Subdivisions.KINGDOM]],
+  ]),
 }

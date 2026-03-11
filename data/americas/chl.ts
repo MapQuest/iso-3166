@@ -1,5 +1,5 @@
-import type { Country } from '../types.js'
 import { Subdivisions } from '../subdivisions.js'
+import type { Country } from '../types.js'
 
 export const CHL: Country = {
   country: 'Chile',
@@ -26,6 +26,6 @@ export const CHL: Country = {
     ['NB', ['Ñuble', Subdivisions.REGION]],
     ['RM', ['Región Metropolitana de Santiago', Subdivisions.REGION]],
     ['TA', ['Tarapacá', Subdivisions.REGION]],
-    ['VS', ['Valparaíso', Subdivisions.REGION]]
-  ])
+    ['VS', ['Valparaíso', Subdivisions.REGION]],
+  ]),
 }

@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const FJI: Country = {
   country: 'Fiji',
@@ -15,6 +15,6 @@ export const FJI: Country = {
     ['E', ['Eastern', Subdivisions.DIVISION]],
     ['N', ['Northern', Subdivisions.DIVISION]],
     ['W', ['Western', Subdivisions.DIVISION]],
-    ['R', ['Rotuma', Subdivisions.DEPENDENCY]]
-  ])
+    ['R', ['Rotuma', Subdivisions.DEPENDENCY]],
+  ]),
 }

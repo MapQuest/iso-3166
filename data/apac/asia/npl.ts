@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const NPL: Country = {
   country: 'Nepal',
@@ -94,6 +94,6 @@ export const NPL: Country = {
     ['74', ['Doti', Subdivisions.DISTRICT]],
     ['75', ['Kailali', Subdivisions.DISTRICT]],
     ['76', ['Kanchanpur', Subdivisions.DISTRICT]],
-    ['77', ['Rukum East', Subdivisions.DISTRICT]]
-  ])
+    ['77', ['Rukum East', Subdivisions.DISTRICT]],
+  ]),
 }

@@ -5,7 +5,9 @@
   "license": "MIT",
   "repository": "github:MapQuest/iso-3166",
   "type": "module",
-  "sideEffects": ["./dist/src/index.js"],
+  "sideEffects": [
+    "./dist/src/index.js"
+  ],
   "main": "./dist/src/index.js",
   "types": "./dist/src/index.d.ts",
   "exports": {
@@ -60,7 +62,7 @@
     "test": "jest ."
   },
   "devDependencies": {
-    "@mapquest/team": "^0.6.3",
+    "@mapquest/team": "^0.7.4",
     "tinybench": "^2.9.0",
     "typescript": "^5.9.3",
     "uglify-js": "^3.19.3"

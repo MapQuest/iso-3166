@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const MYS: Country = {
   country: 'Malaysia',
@@ -26,6 +26,6 @@ export const MYS: Country = {
     ['13', ['Sarawak', Subdivisions.STATE]],
     ['14', ['Wilayah Persekutuan Kuala Lumpur', Subdivisions.TERRITORY]],
     ['15', ['Wilayah Persekutuan Labuan', Subdivisions.TERRITORY]],
-    ['16', ['Wilayah Persekutuan Putrajaya', Subdivisions.TERRITORY]]
-  ])
+    ['16', ['Wilayah Persekutuan Putrajaya', Subdivisions.TERRITORY]],
+  ]),
 }

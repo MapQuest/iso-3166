@@ -27,7 +27,7 @@ export const Subdivisions = {
   TOWN_COUNCIL: 'Town Council',
   UNITARY: 'Unitary Authority',
   VILLAGE: 'Village',
-  ZONE: 'Zone'
+  ZONE: 'Zone',
 } as const
 
 export type SubdivisionType = typeof Subdivisions[keyof typeof Subdivisions]

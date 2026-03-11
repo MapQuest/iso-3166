@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const NRU: Country = {
   country: 'Nauru',
@@ -24,6 +24,6 @@ export const NRU: Country = {
     ['11', ['Meneng', Subdivisions.DISTRICT]],
     ['12', ['Nibok', Subdivisions.DISTRICT]],
     ['13', ['Uaboe', Subdivisions.DISTRICT]],
-    ['14', ['Yaren', Subdivisions.DISTRICT]]
-  ])
+    ['14', ['Yaren', Subdivisions.DISTRICT]],
+  ]),
 }

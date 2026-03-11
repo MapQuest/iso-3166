@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const PAK: Country = {
   country: 'Pakistan',
@@ -17,6 +17,6 @@ export const PAK: Country = {
     ['JK', ['Azad Jammu and Kashmir', Subdivisions.TERRITORY]],
     ['KP', ['Khyber Pakhtunkhwa', Subdivisions.PROVINCE]],
     ['PB', ['Punjab', Subdivisions.PROVINCE]],
-    ['SD', ['Sindh', Subdivisions.PROVINCE]]
-  ])
+    ['SD', ['Sindh', Subdivisions.PROVINCE]],
+  ]),
 }

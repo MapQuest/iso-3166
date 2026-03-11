@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const MHL: Country = {
   country: 'Marshall Islands',
@@ -36,6 +36,6 @@ export const MHL: Country = {
     ['UJA', ['Ujae', Subdivisions.MUNICIPALITY]],
     ['UTI', ['Utirik', Subdivisions.MUNICIPALITY]],
     ['WTH', ['Wotho', Subdivisions.MUNICIPALITY]],
-    ['WTJ', ['Wotje', Subdivisions.MUNICIPALITY]]
-  ])
+    ['WTJ', ['Wotje', Subdivisions.MUNICIPALITY]],
+  ]),
 }

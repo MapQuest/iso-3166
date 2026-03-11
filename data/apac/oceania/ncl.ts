@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const NCL: Country = {
   country: 'New Caledonia',
@@ -13,6 +13,6 @@ export const NCL: Country = {
   localities: new Map([
     ['01', ['North Province', Subdivisions.PROVINCE]],
     ['02', ['South Province', Subdivisions.PROVINCE]],
-    ['03', ['Loyalty Islands Province', Subdivisions.PROVINCE]]
-  ])
+    ['03', ['Loyalty Islands Province', Subdivisions.PROVINCE]],
+  ]),
 }

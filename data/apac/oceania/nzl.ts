@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const NZL: Country = {
   country: 'New Zealand',
@@ -27,6 +27,6 @@ export const NZL: Country = {
     ['WGN', ['Wellington', Subdivisions.REGION]],
     ['WKO', ['Waikato', Subdivisions.REGION]],
     ['WTC', ['West Coast', Subdivisions.REGION]],
-    ['CIT', ['Chatham Islands', Subdivisions.TERRITORY]]
-  ])
+    ['CIT', ['Chatham Islands', Subdivisions.TERRITORY]],
+  ]),
 }

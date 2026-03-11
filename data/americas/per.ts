@@ -1,5 +1,5 @@
-import type { Country } from '../types.js'
 import { Subdivisions } from '../subdivisions.js'
+import type { Country } from '../types.js'
 
 export const PER: Country = {
   country: 'Peru',
@@ -35,6 +35,6 @@ export const PER: Country = {
     ['SAM', ['San Martín', Subdivisions.DEPARTMENT]],
     ['TAC', ['Tacna', Subdivisions.DEPARTMENT]],
     ['TUM', ['Tumbes', Subdivisions.DEPARTMENT]],
-    ['UCA', ['Ucayali', Subdivisions.DEPARTMENT]]
-  ])
+    ['UCA', ['Ucayali', Subdivisions.DEPARTMENT]],
+  ]),
 }

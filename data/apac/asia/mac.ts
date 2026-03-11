@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const MAC: Country = {
   country: 'Macao',
@@ -19,6 +19,6 @@ export const MAC: Country = {
     ['LAW', ['São Francisco Xavier', Subdivisions.PARISH]],
     ['TAI', ['Taipa', Subdivisions.ISLAND]],
     ['COL', ['Coloane', Subdivisions.ISLAND]],
-    ['COT', ['Cotai', Subdivisions.ZONE]]
-  ])
+    ['COT', ['Cotai', Subdivisions.ZONE]],
+  ]),
 }

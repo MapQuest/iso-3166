@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const TLS: Country = {
   country: 'Timor-Leste',
@@ -23,6 +23,6 @@ export const TLS: Country = {
     ['MF', ['Manufahi', Subdivisions.MUNICIPALITY]],
     ['MT', ['Manatuto', Subdivisions.MUNICIPALITY]],
     ['OE', ['Oecusse', Subdivisions.SPECIAL_ADMINISTRATIVE_REGION]],
-    ['VI', ['Viqueque', Subdivisions.MUNICIPALITY]]
-  ])
+    ['VI', ['Viqueque', Subdivisions.MUNICIPALITY]],
+  ]),
 }

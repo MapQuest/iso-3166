@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const PLW: Country = {
   country: 'Palau',
@@ -26,6 +26,6 @@ export const PLW: Country = {
     ['227', ['Ngeremlengui', Subdivisions.STATE]],
     ['228', ['Ngiwal', Subdivisions.STATE]],
     ['350', ['Peleliu', Subdivisions.STATE]],
-    ['370', ['Sonsorol', Subdivisions.STATE]]
-  ])
+    ['370', ['Sonsorol', Subdivisions.STATE]],
+  ]),
 }

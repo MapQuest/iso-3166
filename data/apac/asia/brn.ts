@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const BRN: Country = {
   country: 'Brunei',
@@ -14,6 +14,6 @@ export const BRN: Country = {
     ['BE', ['Belait', Subdivisions.DISTRICT]],
     ['BM', ['Brunei-Muara', Subdivisions.DISTRICT]],
     ['TE', ['Temburong', Subdivisions.DISTRICT]],
-    ['TU', ['Tutong', Subdivisions.DISTRICT]]
-  ])
+    ['TU', ['Tutong', Subdivisions.DISTRICT]],
+  ]),
 }

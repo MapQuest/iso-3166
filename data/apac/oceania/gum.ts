@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const GUM: Country = {
   country: 'Guam',
@@ -29,6 +29,6 @@ export const GUM: Country = {
     ['16', ['Tamuning-Tumon-Harmon', Subdivisions.MUNICIPALITY]],
     ['17', ['Umatac', Subdivisions.MUNICIPALITY]],
     ['18', ['Yigo', Subdivisions.MUNICIPALITY]],
-    ['19', ['Yona', Subdivisions.MUNICIPALITY]]
-  ])
+    ['19', ['Yona', Subdivisions.MUNICIPALITY]],
+  ]),
 }

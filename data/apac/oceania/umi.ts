@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const UMI: Country = {
   country: 'United States Minor Outlying Islands',
@@ -17,6 +17,6 @@ export const UMI: Country = {
     ['84', ['Howland Island', Subdivisions.ISLAND]],
     ['86', ['Jarvis Island', Subdivisions.ISLAND]],
     ['89', ['Kingman Reef', Subdivisions.ISLAND]],
-    ['95', ['Palmyra Atoll', Subdivisions.ISLAND_GROUP]]
-  ])
+    ['95', ['Palmyra Atoll', Subdivisions.ISLAND_GROUP]],
+  ]),
 }

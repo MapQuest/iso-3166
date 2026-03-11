@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const COK: Country = {
   country: 'Cook Islands',
@@ -25,6 +25,6 @@ export const COK: Country = {
     ['AT', ['Atiu', Subdivisions.ISLAND]],
     ['MU', ['Mauke', Subdivisions.ISLAND]],
     ['RR', ['Rarotonga', Subdivisions.ISLAND]],
-    ['MG', ['Mangaia', Subdivisions.ISLAND]]
-  ])
+    ['MG', ['Mangaia', Subdivisions.ISLAND]],
+  ]),
 }

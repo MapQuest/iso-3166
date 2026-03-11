@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const PYF: Country = {
   country: 'French Polynesia',
@@ -16,6 +16,6 @@ export const PYF: Country = {
     ['S', ['Society Islands', Subdivisions.ISLAND_GROUP]],
     ['T', ['Tuamotu-Gambier', Subdivisions.ISLAND_GROUP]],
     ['V', ['Windward Islands', Subdivisions.ISLAND_GROUP]],
-    ['L', ['Leeward Islands', Subdivisions.ISLAND_GROUP]]
-  ])
+    ['L', ['Leeward Islands', Subdivisions.ISLAND_GROUP]],
+  ]),
 }

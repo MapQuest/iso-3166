@@ -1,5 +1,5 @@
-import type { Country } from '../types.js'
 import { Subdivisions } from '../subdivisions.js'
+import type { Country } from '../types.js'
 
 export const COL: Country = {
   country: 'Colombia',
@@ -43,6 +43,6 @@ export const COL: Country = {
     ['TOL', ['Tolima', Subdivisions.DEPARTMENT]],
     ['VAC', ['Valle del Cauca', Subdivisions.DEPARTMENT]],
     ['VAU', ['Vaupés', Subdivisions.DEPARTMENT]],
-    ['VID', ['Vichada', Subdivisions.DEPARTMENT]]
-  ])
+    ['VID', ['Vichada', Subdivisions.DEPARTMENT]],
+  ]),
 }

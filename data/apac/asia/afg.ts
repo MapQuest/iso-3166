@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const AFG: Country = {
   country: 'Afghanistan',
@@ -44,6 +44,6 @@ export const AFG: Country = {
     ['TAK', ['Takhār', Subdivisions.PROVINCE]],
     ['URU', ['Uruzgān', Subdivisions.PROVINCE]],
     ['WAR', ['Wardak', Subdivisions.PROVINCE]],
-    ['ZAB', ['Zābul', Subdivisions.PROVINCE]]
-  ])
+    ['ZAB', ['Zābul', Subdivisions.PROVINCE]],
+  ]),
 }

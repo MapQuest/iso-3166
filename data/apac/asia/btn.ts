@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const BTN: Country = {
   country: 'Bhutan',
@@ -30,6 +30,6 @@ export const BTN: Country = {
     ['44', ['Lhuentse', Subdivisions.DISTRICT]],
     ['45', ['Samdrup Jongkhar', Subdivisions.DISTRICT]],
     ['GA', ['Gasa', Subdivisions.DISTRICT]],
-    ['TY', ['Trashi Yangtse', Subdivisions.DISTRICT]]
-  ])
+    ['TY', ['Trashi Yangtse', Subdivisions.DISTRICT]],
+  ]),
 }

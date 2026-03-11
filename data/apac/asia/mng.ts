@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const MNG: Country = {
   country: 'Mongolia',
@@ -32,6 +32,6 @@ export const MNG: Country = {
     ['067', ['Bulgan', Subdivisions.PROVINCE]],
     ['069', ['Bayankhongor', Subdivisions.PROVINCE]],
     ['071', ['Bayan-Ölgii', Subdivisions.PROVINCE]],
-    ['073', ['Arkhangai', Subdivisions.PROVINCE]]
-  ])
+    ['073', ['Arkhangai', Subdivisions.PROVINCE]],
+  ]),
 }

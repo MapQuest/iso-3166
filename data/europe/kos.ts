@@ -7,5 +7,5 @@ export const KOS: Country = {
   alpha2: 'XK',
   alpha3: 'XKX',
   ioc: 'KOS',
-  undp: 'KOS'
+  undp: 'KOS',
 }

@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const PNG: Country = {
   country: 'Papua New Guinea',
@@ -32,6 +32,6 @@ export const PNG: Country = {
     ['SHM', ['Southern Highlands', Subdivisions.PROVINCE]],
     ['WBK', ['West New Britain', Subdivisions.PROVINCE]],
     ['WHM', ['Western Highlands', Subdivisions.PROVINCE]],
-    ['WPD', ['Western', Subdivisions.PROVINCE]]
-  ])
+    ['WPD', ['Western', Subdivisions.PROVINCE]],
+  ]),
 }

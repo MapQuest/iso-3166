@@ -1,5 +1,5 @@
-import type { Country } from '../types.js'
 import { Subdivisions } from '../subdivisions.js'
+import type { Country } from '../types.js'
 
 export const CAN: Country = {
   country: 'Canada',
@@ -23,6 +23,6 @@ export const CAN: Country = {
     ['PE', ['Prince Edward Island', Subdivisions.PROVINCE]],
     ['QC', ['Quebec', Subdivisions.PROVINCE]],
     ['SK', ['Saskatchewan', Subdivisions.PROVINCE]],
-    ['YT', ['Yukon', Subdivisions.TERRITORY]]
-  ])
+    ['YT', ['Yukon', Subdivisions.TERRITORY]],
+  ]),
 }

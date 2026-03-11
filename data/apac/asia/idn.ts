@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const IDN: Country = {
   country: 'Indonesia',
@@ -44,6 +44,6 @@ export const IDN: Country = {
     ['SS', ['South Sumatra', Subdivisions.PROVINCE]],
     ['ST', ['Central Sulawesi', Subdivisions.PROVINCE]],
     ['SU', ['North Sumatra', Subdivisions.PROVINCE]],
-    ['YO', ['Yogyakarta', Subdivisions.REGION]]
-  ])
+    ['YO', ['Yogyakarta', Subdivisions.REGION]],
+  ]),
 }

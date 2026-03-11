@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const FSM: Country = {
   country: 'Micronesia, Federated States of',
@@ -14,6 +14,6 @@ export const FSM: Country = {
     ['KSA', ['Kosrae', Subdivisions.STATE]],
     ['PNI', ['Pohnpei', Subdivisions.STATE]],
     ['TRK', ['Chuuk', Subdivisions.STATE]],
-    ['YAP', ['Yap', Subdivisions.STATE]]
-  ])
+    ['YAP', ['Yap', Subdivisions.STATE]],
+  ]),
 }

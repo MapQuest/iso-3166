@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const WSM: Country = {
   country: 'Samoa',
@@ -21,6 +21,6 @@ export const WSM: Country = {
     ['SA', ['Satupa\'itea', Subdivisions.DISTRICT]],
     ['TU', ['Tuamasaga', Subdivisions.DISTRICT]],
     ['VF', ['Vaisigano', Subdivisions.DISTRICT]],
-    ['VS', ['Va\'a-o-Fonoti', Subdivisions.DISTRICT]]
-  ])
+    ['VS', ['Va\'a-o-Fonoti', Subdivisions.DISTRICT]],
+  ]),
 }

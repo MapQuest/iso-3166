@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const PHL: Country = {
   country: 'Philippines',
@@ -107,6 +107,6 @@ export const PHL: Country = {
     ['ZMB', ['Zambales', Subdivisions.PROVINCE]],
     ['ZAN', ['Zamboanga del Norte', Subdivisions.PROVINCE]],
     ['ZAS', ['Zamboanga del Sur', Subdivisions.PROVINCE]],
-    ['ZSI', ['Zamboanga Sibugay', Subdivisions.PROVINCE]]
-  ])
+    ['ZSI', ['Zamboanga Sibugay', Subdivisions.PROVINCE]],
+  ]),
 }

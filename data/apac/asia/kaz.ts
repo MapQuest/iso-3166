@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const KAZ: Country = {
   country: 'Kazakhstan',
@@ -30,6 +30,6 @@ export const KAZ: Country = {
     ['VOS', ['East Kazakhstan', Subdivisions.REGION]],
     ['ZAP', ['Abai', Subdivisions.REGION]],
     ['YET', ['Zhetysu', Subdivisions.REGION]],
-    ['ULS', ['Ulytau', Subdivisions.REGION]]
-  ])
+    ['ULS', ['Ulytau', Subdivisions.REGION]],
+  ]),
 }

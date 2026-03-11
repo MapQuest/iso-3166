@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const UZB: Country = {
   country: 'Uzbekistan',
@@ -24,6 +24,6 @@ export const UZB: Country = {
     ['SU', ['Surkhandarya', Subdivisions.REGION]],
     ['TK', ['Tashkent', Subdivisions.REGION]],
     ['TO', ['Tashkent', Subdivisions.CITY]],
-    ['XO', ['Khorezm', Subdivisions.REGION]]
-  ])
+    ['XO', ['Khorezm', Subdivisions.REGION]],
+  ]),
 }

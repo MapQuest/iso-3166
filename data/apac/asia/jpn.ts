@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const JPN: Country = {
   country: 'Japan',
@@ -57,6 +57,6 @@ export const JPN: Country = {
     ['44', ['Oita', Subdivisions.PREFECTURE]],
     ['45', ['Miyazaki', Subdivisions.PREFECTURE]],
     ['46', ['Kagoshima', Subdivisions.PREFECTURE]],
-    ['47', ['Okinawa', Subdivisions.PREFECTURE]]
-  ])
+    ['47', ['Okinawa', Subdivisions.PREFECTURE]],
+  ]),
 }

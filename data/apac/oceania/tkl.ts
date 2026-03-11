@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const TKL: Country = {
   country: 'Tokelau',
@@ -12,6 +12,6 @@ export const TKL: Country = {
   localities: new Map([
     ['AT', ['Atafu', Subdivisions.ISLAND]],
     ['FA', ['Fakaofo', Subdivisions.ISLAND]],
-    ['NU', ['Nukunonu', Subdivisions.ISLAND]]
-  ])
+    ['NU', ['Nukunonu', Subdivisions.ISLAND]],
+  ]),
 }

@@ -1,5 +1,5 @@
-import type { Country } from '../types.js'
 import { Subdivisions } from '../subdivisions.js'
+import type { Country } from '../types.js'
 
 export const ARG: Country = {
   country: 'Argentina',
@@ -34,6 +34,6 @@ export const ARG: Country = {
     ['W', ['Corrientes', Subdivisions.PROVINCE]],
     ['X', ['Córdoba', Subdivisions.PROVINCE]],
     ['Y', ['Jujuy', Subdivisions.PROVINCE]],
-    ['Z', ['Santa Cruz', Subdivisions.PROVINCE]]
-  ])
+    ['Z', ['Santa Cruz', Subdivisions.PROVINCE]],
+  ]),
 }

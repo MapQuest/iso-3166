@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const TWN: Country = {
   country: 'Taiwan',
@@ -32,6 +32,6 @@ export const TWN: Country = {
     ['TTT', ['Taitung', Subdivisions.COUNTY]],
     ['TAO', ['Taoyuan', Subdivisions.CITY]],
     ['ILA', ['Yilan', Subdivisions.COUNTY]],
-    ['YUN', ['Yunlin', Subdivisions.COUNTY]]
-  ])
+    ['YUN', ['Yunlin', Subdivisions.COUNTY]],
+  ]),
 }

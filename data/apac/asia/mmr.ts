@@ -1,5 +1,5 @@
-import type { Country } from '../../types.js'
 import { Subdivisions } from '../../subdivisions.js'
+import type { Country } from '../../types.js'
 
 export const MMR: Country = {
   country: 'Myanmar',
@@ -25,6 +25,6 @@ export const MMR: Country = {
     ['15', ['Mon', Subdivisions.STATE]],
     ['16', ['Rakhine', Subdivisions.STATE]],
     ['17', ['Shan', Subdivisions.STATE]],
-    ['18', ['Nay Pyi Taw', Subdivisions.TERRITORY]]
-  ])
+    ['18', ['Nay Pyi Taw', Subdivisions.TERRITORY]],
+  ]),
 }
