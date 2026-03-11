@@ -1,5 +1,5 @@
-import { Subdivisions } from '../../subdivisions.js'
-import type { Country } from '../../types.js'
+import { Subdivisions } from '../subdivisions.js'
+import type { Country } from '../types.js'
 
 export const KGZ: Country = {
   country: 'Kyrgyzstan',
