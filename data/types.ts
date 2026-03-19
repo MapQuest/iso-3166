@@ -21,7 +21,7 @@ export type Locality = [name: string, type: SubdivisionType, names?: LocalizedNa
  */
 export interface Country {
   /** Common English name of the country or territory (e.g. `"United States"`) */
-  country: string
+  name: string
   /** Localized country names — use `native` for the local official name when it differs from `country` (e.g. `{ native: 'Deutschland', fr: 'Allemagne' }`) */
   names?: LocalizedNames
   /** ITU-T E.164 international calling code (e.g. `1` for the US, `44` for the UK) */

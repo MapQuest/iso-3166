@@ -2,7 +2,7 @@ import { Subdivisions } from '../../subdivisions.js'
 import type { Country } from '../../types.js'
 
 export const COK: Country = {
-  country: 'Cook Islands',
+  name: 'Cook Islands',
   e164: 682,
   fips: 'CW',
   alpha2: 'CK',

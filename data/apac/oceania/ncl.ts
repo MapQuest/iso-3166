@@ -2,7 +2,7 @@ import { Subdivisions } from '../../subdivisions.js'
 import type { Country } from '../../types.js'
 
 export const NCL: Country = {
-  country: 'New Caledonia',
+  name: 'New Caledonia',
   e164: 687,
   fips: 'NC',
   alpha2: 'NC',

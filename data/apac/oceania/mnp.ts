@@ -2,7 +2,7 @@ import { Subdivisions } from '../../subdivisions.js'
 import type { Country } from '../../types.js'
 
 export const MNP: Country = {
-  country: 'Northern Mariana Islands',
+  name: 'Northern Mariana Islands',
   e164: 1670,
   fips: 'CQ',
   alpha2: 'MP',

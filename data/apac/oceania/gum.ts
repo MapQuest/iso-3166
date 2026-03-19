@@ -2,7 +2,7 @@ import { Subdivisions } from '../../subdivisions.js'
 import type { Country } from '../../types.js'
 
 export const GUM: Country = {
-  country: 'Guam',
+  name: 'Guam',
   e164: 1671,
   fips: 'GQ',
   alpha2: 'GU',

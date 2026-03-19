@@ -2,7 +2,7 @@ import { Subdivisions } from '../../subdivisions.js'
 import type { Country } from '../../types.js'
 
 export const IDN: Country = {
-  country: 'Indonesia',
+  name: 'Indonesia',
   e164: 62,
   fips: 'ID',
   alpha2: 'ID',

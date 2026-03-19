@@ -2,7 +2,7 @@ import { Subdivisions } from '../../subdivisions.js'
 import type { Country } from '../../types.js'
 
 export const TKL: Country = {
-  country: 'Tokelau',
+  name: 'Tokelau',
   e164: 690,
   fips: 'TL',
   alpha2: 'TK',

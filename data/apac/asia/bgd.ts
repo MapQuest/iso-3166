@@ -2,7 +2,7 @@ import { Subdivisions } from '../../subdivisions.js'
 import type { Country } from '../../types.js'
 
 export const BGD: Country = {
-  country: 'Bangladesh',
+  name: 'Bangladesh',
   e164: 880,
   fips: 'BG',
   alpha2: 'BD',

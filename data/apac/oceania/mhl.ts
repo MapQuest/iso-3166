@@ -2,7 +2,7 @@ import { Subdivisions } from '../../subdivisions.js'
 import type { Country } from '../../types.js'
 
 export const MHL: Country = {
-  country: 'Marshall Islands',
+  name: 'Marshall Islands',
   e164: 692,
   fips: 'RM',
   alpha2: 'MH',

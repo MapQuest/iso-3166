@@ -2,7 +2,7 @@ import { Subdivisions } from '../../subdivisions.js'
 import type { Country } from '../../types.js'
 
 export const ASM: Country = {
-  country: 'American Samoa',
+  name: 'American Samoa',
   e164: 1684,
   fips: 'AQ',
   alpha2: 'AS',

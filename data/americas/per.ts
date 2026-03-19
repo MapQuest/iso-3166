@@ -2,7 +2,7 @@ import { Subdivisions } from '../subdivisions.js'
 import type { Country } from '../types.js'
 
 export const PER: Country = {
-  country: 'Peru',
+  name: 'Peru',
   e164: 51,
   fips: 'PE',
   alpha2: 'PE',

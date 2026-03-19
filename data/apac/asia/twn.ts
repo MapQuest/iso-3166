@@ -2,7 +2,7 @@ import { Subdivisions } from '../../subdivisions.js'
 import type { Country } from '../../types.js'
 
 export const TWN: Country = {
-  country: 'Taiwan',
+  name: 'Taiwan',
   e164: 886,
   fips: 'TW',
   alpha2: 'TW',

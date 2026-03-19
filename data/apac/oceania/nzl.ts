@@ -2,7 +2,7 @@ import { Subdivisions } from '../../subdivisions.js'
 import type { Country } from '../../types.js'
 
 export const NZL: Country = {
-  country: 'New Zealand',
+  name: 'New Zealand',
   e164: 64,
   fips: 'NZ',
   alpha2: 'NZ',

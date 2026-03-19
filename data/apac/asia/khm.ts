@@ -2,7 +2,7 @@ import { Subdivisions } from '../../subdivisions.js'
 import type { Country } from '../../types.js'
 
 export const KHM: Country = {
-  country: 'Cambodia',
+  name: 'Cambodia',
   e164: 855,
   fips: 'CB',
   alpha2: 'KH',

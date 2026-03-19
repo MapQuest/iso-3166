@@ -2,7 +2,7 @@ import { Subdivisions } from '../../subdivisions.js'
 import type { Country } from '../../types.js'
 
 export const BTN: Country = {
-  country: 'Bhutan',
+  name: 'Bhutan',
   e164: 975,
   fips: 'BT',
   alpha2: 'BT',

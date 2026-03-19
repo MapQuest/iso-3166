@@ -2,7 +2,7 @@ import { Subdivisions } from '../subdivisions.js'
 import type { Country } from '../types.js'
 
 export const ARG: Country = {
-  country: 'Argentina',
+  name: 'Argentina',
   e164: 54,
   fips: 'AR',
   alpha2: 'AR',

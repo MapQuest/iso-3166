@@ -1,7 +1,7 @@
 import type { Country } from '../../types.js'
 
 export const CXR: Country = {
-  country: 'Christmas Island',
+  name: 'Christmas Island',
   e164: 61,
   fips: 'KT',
   alpha2: 'CX',

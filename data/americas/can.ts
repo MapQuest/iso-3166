@@ -2,7 +2,8 @@ import { Subdivisions } from '../subdivisions.js'
 import type { Country } from '../types.js'
 
 export const CAN: Country = {
-  country: 'Canada',
+  name: 'Canada',
+  names: { fr: 'Le Canada' },
   e164: 1,
   fips: 'CA',
   alpha2: 'CA',
@@ -12,16 +13,16 @@ export const CAN: Country = {
   undp: 'CAN',
   localities: new Map([
     ['AB', ['Alberta', Subdivisions.PROVINCE]],
-    ['BC', ['British Columbia', Subdivisions.PROVINCE]],
+    ['BC', ['British Columbia', Subdivisions.PROVINCE, { fr: 'Colombie-Britannique' }]],
     ['MB', ['Manitoba', Subdivisions.PROVINCE]],
-    ['NB', ['New Brunswick', Subdivisions.PROVINCE]],
-    ['NL', ['Newfoundland and Labrador', Subdivisions.PROVINCE]],
-    ['NS', ['Nova Scotia', Subdivisions.PROVINCE]],
-    ['NT', ['Northwest Territories', Subdivisions.TERRITORY]],
+    ['NB', ['New Brunswick', Subdivisions.PROVINCE, { fr: 'Nouveau-Brunswick' }]],
+    ['NL', ['Newfoundland and Labrador', Subdivisions.PROVINCE, { fr: 'Terre-Neuve-et-Labrador' }]],
+    ['NS', ['Nova Scotia', Subdivisions.PROVINCE, { fr: 'Nouvelle-Écosse' }]],
+    ['NT', ['Northwest Territories', Subdivisions.TERRITORY, { fr: 'Territoires du Nord-Ouest' }]],
     ['NU', ['Nunavut', Subdivisions.TERRITORY]],
     ['ON', ['Ontario', Subdivisions.PROVINCE]],
-    ['PE', ['Prince Edward Island', Subdivisions.PROVINCE]],
-    ['QC', ['Quebec', Subdivisions.PROVINCE]],
+    ['PE', ['Prince Edward Island', Subdivisions.PROVINCE, { fr: 'Île-du-Prince-Édouard' }]],
+    ['QC', ['Quebec', Subdivisions.PROVINCE, { fr: 'Québec' }]],
     ['SK', ['Saskatchewan', Subdivisions.PROVINCE]],
     ['YT', ['Yukon', Subdivisions.TERRITORY]],
   ]),

@@ -2,7 +2,7 @@ import { Subdivisions } from '../../subdivisions.js'
 import type { Country } from '../../types.js'
 
 export const PRK: Country = {
-  country: 'Korea, Democratic People\'s Republic of',
+  name: 'Korea, Democratic People\'s Republic of',
   e164: 850,
   fips: 'KN',
   alpha2: 'KP',

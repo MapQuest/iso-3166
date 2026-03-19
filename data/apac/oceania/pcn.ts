@@ -1,7 +1,7 @@
 import type { Country } from '../../types.js'
 
 export const PCN: Country = {
-  country: 'Pitcairn',
+  name: 'Pitcairn',
   e164: 64,
   fips: 'PC',
   alpha2: 'PN',

@@ -2,7 +2,7 @@ import { Subdivisions } from '../../subdivisions.js'
 import type { Country } from '../../types.js'
 
 export const PYF: Country = {
-  country: 'French Polynesia',
+  name: 'French Polynesia',
   e164: 689,
   fips: 'FP',
   alpha2: 'PF',

@@ -2,7 +2,7 @@ import { Subdivisions } from '../../subdivisions.js'
 import type { Country } from '../../types.js'
 
 export const MMR: Country = {
-  country: 'Myanmar',
+  name: 'Myanmar',
   e164: 95,
   fips: 'BM',
   alpha2: 'MM',

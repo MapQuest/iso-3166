@@ -1,7 +1,7 @@
 import type { Country } from '../../types.js'
 
 export const CCK: Country = {
-  country: 'Cocos (Keeling) Islands',
+  name: 'Cocos (Keeling) Islands',
   e164: 61,
   fips: 'CK',
   alpha2: 'CC',

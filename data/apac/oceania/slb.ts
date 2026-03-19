@@ -2,7 +2,7 @@ import { Subdivisions } from '../../subdivisions.js'
 import type { Country } from '../../types.js'
 
 export const SLB: Country = {
-  country: 'Solomon Islands',
+  name: 'Solomon Islands',
   e164: 677,
   fips: 'BP',
   alpha2: 'SB',

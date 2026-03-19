@@ -2,7 +2,7 @@ import { Subdivisions } from '../../subdivisions.js'
 import type { Country } from '../../types.js'
 
 export const PNG: Country = {
-  country: 'Papua New Guinea',
+  name: 'Papua New Guinea',
   e164: 675,
   fips: 'PP',
   alpha2: 'PG',

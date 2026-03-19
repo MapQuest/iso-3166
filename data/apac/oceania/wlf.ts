@@ -2,7 +2,7 @@ import { Subdivisions } from '../../subdivisions.js'
 import type { Country } from '../../types.js'
 
 export const WLF: Country = {
-  country: 'Wallis and Futuna',
+  name: 'Wallis and Futuna',
   e164: 681,
   fips: 'WF',
   alpha2: 'WF',

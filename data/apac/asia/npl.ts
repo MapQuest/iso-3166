@@ -2,7 +2,7 @@ import { Subdivisions } from '../../subdivisions.js'
 import type { Country } from '../../types.js'
 
 export const NPL: Country = {
-  country: 'Nepal',
+  name: 'Nepal',
   e164: 977,
   fips: 'NP',
   alpha2: 'NP',

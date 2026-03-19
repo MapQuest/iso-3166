@@ -2,7 +2,7 @@ import { Subdivisions } from '../../subdivisions.js'
 import type { Country } from '../../types.js'
 
 export const SGP: Country = {
-  country: 'Singapore',
+  name: 'Singapore',
   e164: 65,
   fips: 'SN',
   alpha2: 'SG',

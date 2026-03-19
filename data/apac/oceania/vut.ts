@@ -2,7 +2,7 @@ import { Subdivisions } from '../../subdivisions.js'
 import type { Country } from '../../types.js'
 
 export const VUT: Country = {
-  country: 'Vanuatu',
+  name: 'Vanuatu',
   e164: 678,
   fips: 'NH',
   alpha2: 'VU',

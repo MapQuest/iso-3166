@@ -2,7 +2,7 @@ import { Subdivisions } from '../../subdivisions.js'
 import type { Country } from '../../types.js'
 
 export const UMI: Country = {
-  country: 'United States Minor Outlying Islands',
+  name: 'United States Minor Outlying Islands',
   e164: 1,
   alpha2: 'UM',
   alpha3: 'UMI',

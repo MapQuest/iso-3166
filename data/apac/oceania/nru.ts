@@ -2,7 +2,7 @@ import { Subdivisions } from '../../subdivisions.js'
 import type { Country } from '../../types.js'
 
 export const NRU: Country = {
-  country: 'Nauru',
+  name: 'Nauru',
   e164: 674,
   fips: 'NR',
   alpha2: 'NR',
