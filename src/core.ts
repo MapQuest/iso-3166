@@ -32,9 +32,9 @@ function isCountry (value: unknown): value is Country {
 // Singleton lookup registry: normalized key → Country
 const registry = new Map<string, Country>()
 
-/** Lowercase, strip diacritics, and remove spaces for fuzzy matching. */
+/** Lowercase, strip diacritics, remove leading articles, and remove spaces for fuzzy matching. */
 function normalize (s: string): string {
-  return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\s/g, '').toLowerCase()
+  return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/^the\s+/i, '').replace(/\s/g, '').toLowerCase()
 }
 
 /**

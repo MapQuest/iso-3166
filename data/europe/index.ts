@@ -1,3 +1,4 @@
 export { DEU } from './deu.js'
 export { KOS } from './kos.js'
+export { NLD } from './nld.js'
 export { TUR } from './tur.js'

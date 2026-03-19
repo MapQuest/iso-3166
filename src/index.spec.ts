@@ -25,6 +25,8 @@ describe('.country()', () => {
       .toStrictEqual(expect.objectContaining({ alpha3: 'VNM', name: 'Vietnam' }))
     expect(country('Turkiye'))
       .toStrictEqual(expect.objectContaining({ alpha3: 'TUR', name: 'Turkey' }))
+    expect(country('The Netherlands'))
+      .toStrictEqual(expect.objectContaining({ alpha3: 'NLD', name: 'Netherlands' }))
   })
 
   it('gracefully handles non-existent keys', () => {
