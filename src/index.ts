@@ -7,12 +7,10 @@
  * alongside the re-exports.
  */
 
-// Types & constants
-export type { Country } from '../data/types.js'
+export type { Country, Locality, LocalizedNames } from '../data/types.js'
 export type { SubdivisionType } from '../data/subdivisions.js'
 export { Subdivisions } from '../data/subdivisions.js'
 
-// Region packs (re-exported as namespaces for convenience)
 export * as africa from '../data/africa/index.js'
 export * as americas from '../data/americas/index.js'
 export * as apac from '../data/apac/index.js'

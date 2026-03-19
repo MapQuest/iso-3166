@@ -18,6 +18,6 @@
  * Business logic will be implemented here in a future milestone.
  */
 
-export type { Country } from '../data/types.js'
+export type { Country, Locality, LocalizedNames } from '../data/types.js'
 export type { SubdivisionType } from '../data/subdivisions.js'
 export { Subdivisions } from '../data/subdivisions.js'

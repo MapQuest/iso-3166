@@ -31,6 +31,8 @@ export const Subdivisions = {
   ISLAND_GROUP: 'Island Group',
   /** A monarchical subdivision within a federal state (e.g. the Kingdom within the Netherlands) */
   KINGDOM: 'Kingdom',
+  /** A federated state in Germany or Austria (e.g. Bayern, Niedersachsen) */
+  LAND: 'Land',
   /** An urban administrative district in a metropolitan area (e.g. metropolitan boroughs in the UK) */
   METROPOLITAN: 'Metropolitan District',
   /** A self-governing local administrative unit (e.g. municipalities in Brazil or Mexico) */
