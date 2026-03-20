@@ -1,0 +1,37 @@
+import { Subdivisions } from '../subdivisions.js'
+import type { Country } from '../types.js'
+
+export const GTM: Country = {
+  name: 'Guatemala',
+  e164: 502,
+  fips: 'GT',
+  alpha2: 'GT',
+  alpha3: 'GTM',
+  ioc: 'GUA',
+  numeric: 320,
+  undp: 'GTM',
+  localities: new Map([
+    ['AV', ['Alta Verapaz', Subdivisions.DEPARTMENT]],
+    ['BV', ['Baja Verapaz', Subdivisions.DEPARTMENT]],
+    ['CM', ['Chimaltenango', Subdivisions.DEPARTMENT]],
+    ['CQ', ['Chiquimula', Subdivisions.DEPARTMENT]],
+    ['ES', ['Escuintla', Subdivisions.DEPARTMENT]],
+    ['GU', ['Guatemala', Subdivisions.DEPARTMENT]],
+    ['HU', ['Huehuetenango', Subdivisions.DEPARTMENT]],
+    ['IZ', ['Izabal', Subdivisions.DEPARTMENT]],
+    ['JA', ['Jalapa', Subdivisions.DEPARTMENT]],
+    ['JU', ['Jutiapa', Subdivisions.DEPARTMENT]],
+    ['PE', ['Petén', Subdivisions.DEPARTMENT]],
+    ['PR', ['El Progreso', Subdivisions.DEPARTMENT]],
+    ['QC', ['Quiché', Subdivisions.DEPARTMENT]],
+    ['QZ', ['Quetzaltenango', Subdivisions.DEPARTMENT]],
+    ['RE', ['Retalhuleu', Subdivisions.DEPARTMENT]],
+    ['SA', ['Sacatepéquez', Subdivisions.DEPARTMENT]],
+    ['SM', ['San Marcos', Subdivisions.DEPARTMENT]],
+    ['SO', ['Sololá', Subdivisions.DEPARTMENT]],
+    ['SR', ['Santa Rosa', Subdivisions.DEPARTMENT]],
+    ['SU', ['Suchitepéquez', Subdivisions.DEPARTMENT]],
+    ['TO', ['Totonicapán', Subdivisions.DEPARTMENT]],
+    ['ZA', ['Zacapa', Subdivisions.DEPARTMENT]],
+  ]),
+}
