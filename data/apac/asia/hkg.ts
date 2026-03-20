@@ -3,6 +3,7 @@ import type { Country } from '../../types.js'
 
 export const HKG: Country = {
   name: 'Hong Kong',
+  names: { native: '香港' },
   e164: 852,
   fips: 'HK',
   alpha2: 'HK',

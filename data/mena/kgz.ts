@@ -3,6 +3,7 @@ import type { Country } from '../types.js'
 
 export const KGZ: Country = {
   name: 'Kyrgyzstan',
+  names: { native: 'Кыргызстан' },
   e164: 996,
   fips: 'KG',
   alpha2: 'KG',

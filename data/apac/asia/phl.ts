@@ -3,6 +3,7 @@ import type { Country } from '../../types.js'
 
 export const PHL: Country = {
   name: 'Philippines',
+  names: { native: 'Pilipinas' },
   e164: 63,
   fips: 'RP',
   alpha2: 'PH',

@@ -3,6 +3,7 @@ import type { Country } from '../types.js'
 
 export const BRA: Country = {
   name: 'Brazil',
+  names: { native: 'Brasil' },
   e164: 55,
   fips: 'BR',
   alpha2: 'BR',

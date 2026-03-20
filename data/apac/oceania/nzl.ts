@@ -3,6 +3,7 @@ import type { Country } from '../../types.js'
 
 export const NZL: Country = {
   name: 'New Zealand',
+  names: { mi: 'Aotearoa' },
   e164: 64,
   fips: 'NZ',
   alpha2: 'NZ',

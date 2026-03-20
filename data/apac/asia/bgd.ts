@@ -3,6 +3,7 @@ import type { Country } from '../../types.js'
 
 export const BGD: Country = {
   name: 'Bangladesh',
+  names: { native: 'বাংলাদেশ' },
   e164: 880,
   fips: 'BG',
   alpha2: 'BD',

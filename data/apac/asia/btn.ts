@@ -3,6 +3,7 @@ import type { Country } from '../../types.js'
 
 export const BTN: Country = {
   name: 'Bhutan',
+  names: { native: 'འབྲུག་ཡུལ' },
   e164: 975,
   fips: 'BT',
   alpha2: 'BT',

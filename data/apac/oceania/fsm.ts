@@ -2,7 +2,8 @@ import { Subdivisions } from '../../subdivisions.js'
 import type { Country } from '../../types.js'
 
 export const FSM: Country = {
-  name: 'Micronesia, Federated States of',
+  name: 'Micronesia (Federated States of)',
+  names: { en: 'Micronesia' },
   e164: 691,
   fips: 'FM',
   alpha2: 'FM',

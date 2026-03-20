@@ -21,8 +21,8 @@ describe('.country()', () => {
   })
 
   it('normalizes input before lookup', () => {
-    expect(country('Viet Nam'))
-      .toStrictEqual(expect.objectContaining({ alpha3: 'VNM', name: 'Vietnam' }))
+    expect(country('Vietnam'))
+      .toStrictEqual(expect.objectContaining({ alpha3: 'VNM', name: 'Viet Nam' }))
     expect(country('Turkiye'))
       .toStrictEqual(expect.objectContaining({ alpha3: 'TUR', name: 'Turkey' }))
     expect(country('The Netherlands'))

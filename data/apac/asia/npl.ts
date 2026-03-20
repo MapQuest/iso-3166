@@ -3,6 +3,7 @@ import type { Country } from '../../types.js'
 
 export const NPL: Country = {
   name: 'Nepal',
+  names: { native: 'नेपाल' },
   e164: 977,
   fips: 'NP',
   alpha2: 'NP',

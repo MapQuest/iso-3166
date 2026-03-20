@@ -3,6 +3,7 @@ import type { Country } from '../types.js'
 
 export const MEX: Country = {
   name: 'Mexico',
+  names: { native: 'México' },
   e164: 52,
   fips: 'MX',
   alpha2: 'MX',
@@ -17,7 +18,7 @@ export const MEX: Country = {
     ['CAM', ['Campeche', Subdivisions.STATE]],
     ['CHH', ['Chihuahua', Subdivisions.STATE]],
     ['CHP', ['Chiapas', Subdivisions.STATE]],
-    ['CMX', ['Ciudad de México', Subdivisions.CITY]],
+    ['CMX', ['Ciudad de México', Subdivisions.CITY, { en: 'Mexico City' }]],
     ['COA', ['Coahuila', Subdivisions.STATE]],
     ['COL', ['Colima', Subdivisions.STATE]],
     ['DUR', ['Durango', Subdivisions.STATE]],

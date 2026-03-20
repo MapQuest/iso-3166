@@ -3,6 +3,7 @@ import type { Country } from '../types.js'
 
 export const AFG: Country = {
   name: 'Afghanistan',
+  names: { native: 'افغانستان' },
   e164: 93,
   fips: 'AF',
   alpha2: 'AF',

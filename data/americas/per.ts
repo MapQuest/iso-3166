@@ -3,6 +3,7 @@ import type { Country } from '../types.js'
 
 export const PER: Country = {
   name: 'Peru',
+  names: { native: 'Perú' },
   e164: 51,
   fips: 'PE',
   alpha2: 'PE',

@@ -3,6 +3,7 @@ import type { Country } from '../../types.js'
 
 export const KOR: Country = {
   name: 'Korea, Republic of',
+  names: { native: '대한민국', en: 'South Korea' },
   e164: 82,
   fips: 'KS',
   alpha2: 'KR',

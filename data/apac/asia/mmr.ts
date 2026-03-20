@@ -3,6 +3,7 @@ import type { Country } from '../../types.js'
 
 export const MMR: Country = {
   name: 'Myanmar',
+  names: { native: 'မြန်မာ' },
   e164: 95,
   fips: 'BM',
   alpha2: 'MM',

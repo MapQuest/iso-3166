@@ -3,6 +3,7 @@ import type { Country } from '../../types.js'
 
 export const IND: Country = {
   name: 'India',
+  names: { native: 'भारत' },
   e164: 91,
   fips: 'IN',
   alpha2: 'IN',

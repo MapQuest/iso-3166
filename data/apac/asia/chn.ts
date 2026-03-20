@@ -3,6 +3,7 @@ import type { Country } from '../../types.js'
 
 export const CHN: Country = {
   name: 'China',
+  names: { native: '中国' },
   e164: 86,
   fips: 'CH',
   alpha2: 'CN',

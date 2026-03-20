@@ -3,6 +3,7 @@ import type { Country } from '../../types.js'
 
 export const LKA: Country = {
   name: 'Sri Lanka',
+  names: { native: 'ශ්‍රී ලංකාව' },
   e164: 94,
   fips: 'CE',
   alpha2: 'LK',

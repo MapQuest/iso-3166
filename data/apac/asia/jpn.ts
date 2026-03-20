@@ -3,6 +3,7 @@ import type { Country } from '../../types.js'
 
 export const JPN: Country = {
   name: 'Japan',
+  names: { native: '日本' },
   e164: 81,
   fips: 'JA',
   alpha2: 'JP',

@@ -2,7 +2,8 @@ import { Subdivisions } from '../../subdivisions.js'
 import type { Country } from '../../types.js'
 
 export const VNM: Country = {
-  name: 'Vietnam',
+  name: 'Viet Nam',
+  names: { native: 'Việt Nam', en: 'Vietnam' },
   e164: 84,
   fips: 'VM',
   alpha2: 'VN',

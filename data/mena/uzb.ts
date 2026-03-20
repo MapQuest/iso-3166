@@ -3,6 +3,7 @@ import type { Country } from '../types.js'
 
 export const UZB: Country = {
   name: 'Uzbekistan',
+  names: { native: 'Oʻzbekiston' },
   e164: 998,
   fips: 'UZ',
   alpha2: 'UZ',

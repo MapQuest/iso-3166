@@ -3,6 +3,7 @@ import type { Country } from '../../types.js'
 
 export const MNG: Country = {
   name: 'Mongolia',
+  names: { native: 'Монгол' },
   e164: 976,
   fips: 'MG',
   alpha2: 'MN',

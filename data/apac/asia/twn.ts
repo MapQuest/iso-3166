@@ -3,6 +3,7 @@ import type { Country } from '../../types.js'
 
 export const TWN: Country = {
   name: 'Taiwan',
+  names: { native: '臺灣' },
   e164: 886,
   fips: 'TW',
   alpha2: 'TW',

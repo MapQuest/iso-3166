@@ -3,6 +3,7 @@ import type { Country } from '../../types.js'
 
 export const SGP: Country = {
   name: 'Singapore',
+  names: { native: 'Singapura' },
   e164: 65,
   fips: 'SN',
   alpha2: 'SG',

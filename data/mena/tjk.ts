@@ -3,6 +3,7 @@ import type { Country } from '../types.js'
 
 export const TJK: Country = {
   name: 'Tajikistan',
+  names: { native: 'Тоҷикистон' },
   e164: 992,
   fips: 'TI',
   alpha2: 'TJ',

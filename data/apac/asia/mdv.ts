@@ -3,6 +3,7 @@ import type { Country } from '../../types.js'
 
 export const MDV: Country = {
   name: 'Maldives',
+  names: { native: 'ދިވެހިރާއްޖެ' },
   e164: 960,
   fips: 'MV',
   alpha2: 'MV',

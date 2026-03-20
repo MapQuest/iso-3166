@@ -3,6 +3,7 @@ import type { Country } from '../../types.js'
 
 export const KHM: Country = {
   name: 'Cambodia',
+  names: { native: 'កម្ពុជា' },
   e164: 855,
   fips: 'CB',
   alpha2: 'KH',

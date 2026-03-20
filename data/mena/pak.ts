@@ -3,6 +3,7 @@ import type { Country } from '../types.js'
 
 export const PAK: Country = {
   name: 'Pakistan',
+  names: { native: 'پاکستان' },
   e164: 92,
   fips: 'PK',
   alpha2: 'PK',
