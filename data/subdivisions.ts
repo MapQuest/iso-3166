@@ -47,6 +47,8 @@ export const Subdivisions = {
   PROVINCE: 'Province',
   /** A broad administrative area, often grouping smaller divisions (e.g. regions of France or Ghana) */
   REGION: 'Region',
+  /** A constituent administrative division designated as a republic within a country */
+  REPUBLIC: 'Republic',
   /** A territory with a high degree of autonomy (e.g. Hong Kong, Macau) */
   SPECIAL_ADMINISTRATIVE_REGION: 'Special Administrative Region',
   /** A city with special administrative status (e.g. Seoul in South Korea) */

@@ -25,7 +25,7 @@ export const UKR: Country = {
     ['32', ['Kyivska oblast', Subdivisions.REGION]],
     ['35', ['Kirovohradska oblast', Subdivisions.REGION]],
     ['40', ['Sevastopol', Subdivisions.CITY]],
-    ['43', ['Avtonomna Respublika Krym', Subdivisions.AUTONOMOUS_REGION, { en: 'Crimea' }]],
+    ['43', ['Avtonomna Respublika Krym', Subdivisions.REPUBLIC, { en: 'Crimea' }]],
     ['46', ['Lvivska oblast', Subdivisions.REGION]],
     ['48', ['Mykolaivska oblast', Subdivisions.REGION]],
     ['51', ['Odeska oblast', Subdivisions.REGION]],
