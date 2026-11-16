@@ -27,17 +27,13 @@
       "types": "./dist/data/americas/index.d.ts",
       "import": "./dist/data/americas/index.js"
     },
-    "./apac": {
-      "types": "./dist/data/apac/index.d.ts",
-      "import": "./dist/data/apac/index.js"
+    "./asia": {
+      "types": "./dist/data/asia/index.d.ts",
+      "import": "./dist/data/asia/index.js"
     },
-    "./apac/asia": {
-      "types": "./dist/data/apac/asia/index.d.ts",
-      "import": "./dist/data/apac/asia/index.js"
-    },
-    "./apac/oceania": {
-      "types": "./dist/data/apac/oceania/index.d.ts",
-      "import": "./dist/data/apac/oceania/index.js"
+    "./oceania": {
+      "types": "./dist/data/oceania/index.d.ts",
+      "import": "./dist/data/oceania/index.js"
     },
     "./europe": {
       "types": "./dist/data/europe/index.d.ts",
@@ -46,10 +42,6 @@
     "./africa": {
       "types": "./dist/data/africa/index.d.ts",
       "import": "./dist/data/africa/index.js"
-    },
-    "./mena": {
-      "types": "./dist/data/mena/index.d.ts",
-      "import": "./dist/data/mena/index.js"
     }
   },
   "files": [

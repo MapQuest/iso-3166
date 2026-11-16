@@ -1,6 +1,7 @@
 import { describe, expect, it } from '@jest/globals'
 
 import { country } from './index.js'
+import * as packs from '../data/index.js'
 
 describe('.country()', () => {
   it('supports lookup by alpha-2 and alpha-3 code', () => {
@@ -8,6 +9,14 @@ describe('.country()', () => {
       .toStrictEqual(expect.objectContaining({ alpha3: 'CAN', name: 'Canada' }))
     expect(country('CAN'))
       .toStrictEqual(expect.objectContaining({ alpha3: 'CAN', name: 'Canada' }))
+  })
+
+  it('registers every country from the geographic packs', () => {
+    const countries = Object.values(packs).flatMap(pack => Object.values(pack))
+    for (const c of countries) {
+      expect(country(c.alpha2)).toBe(c)
+      expect(country(c.alpha3)).toBe(c)
+    }
   })
 
   it('supports lookup by country name', () => {

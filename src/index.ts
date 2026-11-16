@@ -11,11 +11,11 @@
 import { register } from './core.js'
 import * as africa from '../data/africa/index.js'
 import * as americas from '../data/americas/index.js'
-import * as apac from '../data/apac/index.js'
+import * as asia from '../data/asia/index.js'
 import * as europe from '../data/europe/index.js'
-import * as mena from '../data/mena/index.js'
+import * as oceania from '../data/oceania/index.js'
 
-register(africa, americas, apac, europe, mena)
+register(africa, americas, asia, europe, oceania)
 
 export type { Country, Locality, LocalizedNames, CountryPack } from './core.js'
 export type { SubdivisionType } from './core.js'

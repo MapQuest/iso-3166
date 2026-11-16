@@ -7,9 +7,9 @@
  *
  * @example
  * import { register, country, subdivision } from '@mapquest/iso-3166/core'
- * import * as apac from '@mapquest/iso-3166/apac'
+ * import * as asia from '@mapquest/iso-3166/asia'
  *
- * register(apac)
+ * register(asia)
  *
  * country('JP')
  * subdivision('JP-27')
@@ -55,7 +55,7 @@ function registerCountry (c: Country): void {
  * Register one or more countries or country data packs into the global registry.
  *
  * Accepts individual Country objects, or whole data-pack modules whose named
- * exports are Country objects (e.g. `import * as apac from '…/apac'`).
+ * exports are Country objects (e.g. `import * as asia from '…/asia'`).
  *
  * @param items - Country objects or data pack modules
  */
