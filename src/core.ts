@@ -15,55 +15,14 @@
  * subdivision('JP-27')
  */
 
-import type { Country } from '../data/types.js'
+import { normalize, registry } from './registry.js'
+import type { Country, Subdivision } from '../data/types.js'
 
-export type { Country, Locality, LocalizedNames } from '../data/types.js'
+export type { Country, Locality, LocalizedNames, Subdivision } from '../data/types.js'
 export type { SubdivisionType } from '../data/subdivisions.js'
 export { Subdivisions } from '../data/subdivisions.js'
-
-/** A country data pack — a module whose named exports are Country objects. */
-export type CountryPack = Record<string, Country>
-
-/** Type guard — returns true when `value` looks like a Country object. */
-function isCountry (value: unknown): value is Country {
-  return typeof value === 'object' && value !== null && 'alpha2' in value
-}
-
-// Singleton lookup registry: normalized key → Country
-const registry = new Map<string, Country>()
-
-/** Lowercase, strip diacritics, normalize abbreviations, remove articles, punctuation, and spaces for fuzzy matching. */
-function normalize (s: string): string {
-  return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/^the\s+/i, '').replace(/\bsaint\b/gi, 'st').replace(/[^a-z0-9]/gi, '').toLowerCase()
-}
-
-/**
- * Index a single country by all searchable keys:
- * english name, localized names, alpha-2 and alpha-3 codes.
- */
-function registerCountry (c: Country): void {
-  registry.set(normalize(c.name), c)
-  registry.set(normalize(c.alpha2), c)
-  registry.set(normalize(c.alpha3), c)
-
-  for (const name of Object.values(c.names || {})) {
-    registry.set(normalize(name), c)
-  }
-}
-
-/**
- * Register one or more countries or country data packs into the global registry.
- *
- * Accepts individual Country objects, or whole data-pack modules whose named
- * exports are Country objects (e.g. `import * as asia from '…/asia'`).
- *
- * @param items - Country objects or data pack modules
- */
-export function register (...items: Array<Country | CountryPack>): void {
-  items.flatMap(item =>
-    isCountry(item) ? [item] : Object.values(item).filter(isCountry)
-  ).forEach(registerCountry)
-}
+export type { CountryPack } from './registry.js'
+export { register } from './registry.js'
 
 /**
  * Look up a country by name, localized name, alpha-2, or alpha-3 code.
@@ -72,5 +31,22 @@ export function register (...items: Array<Country | CountryPack>): void {
  * @returns The matching Country, or `undefined` if not found
  */
 export function country (query: string): Country | undefined {
-  return registry.get(normalize(query))
+  return registry.get(normalize(query))?.country
+}
+
+/**
+ * Look up a subdivision within a registered country.
+ *
+ * @param query - Full subdivision code (e.g. `'JP-27'`), or a country name or alpha-2/alpha-3 code
+ * @param regionQuery - Subdivision code without its country prefix, name, or localized name
+ * @returns A shared cached result (readonly in TypeScript, not frozen at runtime), or `undefined` if not found
+ */
+export function subdivision (query: string, regionQuery?: string): Readonly<Subdivision> | undefined {
+  if (regionQuery === undefined) {
+    const match = /^([a-z]{2,3})-([a-z0-9]{1,3})$/i.exec(query.trim())
+    return match ? subdivision(match[1], match[2]) : undefined
+  }
+
+  const index = registry.get(normalize(query))?.subdivisions
+  return index?.get(normalize(regionQuery))
 }

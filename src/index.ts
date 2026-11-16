@@ -17,6 +17,6 @@ import * as oceania from '../data/oceania/index.js'
 
 register(africa, americas, asia, europe, oceania)
 
-export type { Country, Locality, LocalizedNames, CountryPack } from './core.js'
+export type { Country, Locality, LocalizedNames, CountryPack, Subdivision } from './core.js'
 export type { SubdivisionType } from './core.js'
-export { Subdivisions, country } from './core.js'
+export { Subdivisions, country, subdivision } from './core.js'

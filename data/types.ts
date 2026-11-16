@@ -24,6 +24,18 @@ export type LocalizedNames = Record<string, string>
 /** Subdivision entry: name, administrative type, and optional localized names */
 export type Locality = [name: string, type: SubdivisionType, names?: LocalizedNames]
 
+/** A subdivision lookup result with its codes and shared parent country. */
+export interface Subdivision {
+  name: string
+  type: SubdivisionType
+  /** Reference to the registered parent Country, not a copy. */
+  country: Country
+  /** Subdivision code without the country prefix (e.g. `'27'`). */
+  regionCode: string
+  /** Full ISO 3166-2 code (e.g. `'JP-27'`). */
+  code: string
+}
+
 /**
  * ISO-3166 country data with optional subdivision localities.
  *
@@ -74,6 +86,6 @@ export interface Country {
   numeric?: number
   /** United Nations Development Programme country code (e.g. `"USA"`) */
   undp: string
-  /** ISO 3166-2 subdivision localities keyed by subdivision code (e.g. `"US-CA"`), with a tuple of the subdivision name and its administrative type */
+  /** ISO 3166-2 subdivision localities keyed by code without the country prefix (e.g. `"CA"`), with a tuple of the subdivision name, administrative type, and optional localized names */
   localities?: Map<string, Locality>
 }

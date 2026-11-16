@@ -1,6 +1,6 @@
 import { describe, expect, it } from '@jest/globals'
 
-import { country } from './index.js'
+import { country, subdivision } from './index.js'
 import * as packs from '../data/index.js'
 
 describe('.country()', () => {
@@ -43,5 +43,46 @@ describe('.country()', () => {
   it('gracefully handles non-existent keys', () => {
     expect(country('UN')).toBe(undefined)
     expect(country('United Nations')).toBe(undefined)
+  })
+})
+
+describe('.subdivision()', () => {
+  it('returns a named result for a full subdivision code', () => {
+    expect(subdivision('JP-27')).toStrictEqual({
+      name: 'Osaka',
+      type: 'Prefecture',
+      country: packs.asia.JPN,
+      regionCode: '27',
+      code: 'JP-27',
+    })
+    expect(subdivision('JP-27')?.country).toBe(country('JP'))
+    expect(subdivision(' jpn-27 ')).toEqual(subdivision('JP-27'))
+    expect(subdivision('JP-01')?.regionCode).toBe('01')
+  })
+
+  it('accepts a country and subdivision code or name', () => {
+    const indiana = subdivision('US-IN')
+    expect(indiana?.name).toBe('Indiana')
+    expect(subdivision(' us ', ' in ')).toEqual(indiana)
+    expect(subdivision('USA', 'Indiana')).toEqual(indiana)
+    expect(subdivision('United States', 'indiana')).toEqual(indiana)
+  })
+
+  it('normalizes subdivision names and searches localized names', () => {
+    expect(subdivision('Le Canada', 'nouvelle ecosse')?.code).toBe('CA-NS')
+    expect(subdivision('Deutschland', 'Bavaria')?.code).toBe('DE-BY')
+    expect(subdivision('DE', 'Baden Wurttemberg')?.code).toBe('DE-BW')
+  })
+
+  it('returns undefined for missing or malformed lookups', () => {
+    expect(subdivision('UN-1')).toBeUndefined()
+    expect(subdivision('JP-99')).toBeUndefined()
+    expect(subdivision('JP', 'unknown')).toBeUndefined()
+    expect(subdivision('IO-01')).toBeUndefined()
+    expect(subdivision('AW-01')).toBeUndefined()
+    expect(subdivision('')).toBeUndefined()
+    expect(subdivision('JP')).toBeUndefined()
+    expect(subdivision('JP-27-extra')).toBeUndefined()
+    expect(subdivision('JP', '')).toBeUndefined()
   })
 })
