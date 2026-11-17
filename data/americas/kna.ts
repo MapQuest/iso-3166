@@ -25,5 +25,7 @@ export const KNA: Country = {
     ['12', ['Saint Thomas Lowland', Subdivisions.PARISH]],
     ['13', ['Saint Thomas Middle Island', Subdivisions.PARISH]],
     ['15', ['Trinity Palmetto Point', Subdivisions.PARISH]],
+    ['K', ['Saint Kitts', Subdivisions.STATE]],
+    ['N', ['Nevis', Subdivisions.STATE]],
   ]),
 }

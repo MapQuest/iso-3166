@@ -15,7 +15,7 @@ export const NRU: Country = {
     ['02', ['Anabar', Subdivisions.DISTRICT]],
     ['03', ['Anetan', Subdivisions.DISTRICT]],
     ['04', ['Anibare', Subdivisions.DISTRICT]],
-    ['05', ['Baiti', Subdivisions.DISTRICT]],
+    ['05', ['Baitsi', Subdivisions.DISTRICT]],
     ['06', ['Boe', Subdivisions.DISTRICT]],
     ['07', ['Buada', Subdivisions.DISTRICT]],
     ['08', ['Denigomodu', Subdivisions.DISTRICT]],

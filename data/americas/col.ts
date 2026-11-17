@@ -25,7 +25,7 @@ export const COL: Country = {
     ['CHO', ['Chocó', Subdivisions.DEPARTMENT]],
     ['COR', ['Córdoba', Subdivisions.DEPARTMENT]],
     ['CUN', ['Cundinamarca', Subdivisions.DEPARTMENT]],
-    ['DC', ['Distrito Capital de Bogotá', Subdivisions.DISTRICT]],
+    ['DC', ['Distrito Capital de Bogotá', Subdivisions.CAPITAL_DISTRICT]],
     ['GUA', ['Guainía', Subdivisions.DEPARTMENT]],
     ['GUV', ['Guaviare', Subdivisions.DEPARTMENT]],
     ['HUI', ['Huila', Subdivisions.DEPARTMENT]],

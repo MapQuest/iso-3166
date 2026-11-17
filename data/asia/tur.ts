@@ -2,8 +2,8 @@ import { Subdivisions } from '../subdivisions.js'
 import type { Country } from '../types.js'
 
 export const TUR: Country = {
-  name: 'Turkey',
-  names: { native: 'Türkiye' },
+  name: 'Türkiye',
+  names: { en: 'Turkey' },
   e164: 90,
   fips: 'TU',
   alpha2: 'TR',

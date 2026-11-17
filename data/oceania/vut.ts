@@ -12,10 +12,10 @@ export const VUT: Country = {
   undp: 'VUT',
   localities: new Map([
     ['MAP', ['Malampa', Subdivisions.PROVINCE]],
-    ['PAM', ['Penama', Subdivisions.PROVINCE]],
+    ['PAM', ['Pénama', Subdivisions.PROVINCE, { en: 'Penama' }]],
     ['SAM', ['Sanma', Subdivisions.PROVINCE]],
-    ['SEE', ['Shefa', Subdivisions.PROVINCE]],
-    ['TAE', ['Tafea', Subdivisions.PROVINCE]],
+    ['SEE', ['Shéfa', Subdivisions.PROVINCE, { en: 'Shefa' }]],
+    ['TAE', ['Taféa', Subdivisions.PROVINCE, { en: 'Tafea' }]],
     ['TOB', ['Torba', Subdivisions.PROVINCE]],
   ]),
 }

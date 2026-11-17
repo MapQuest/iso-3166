@@ -13,7 +13,7 @@ export const SLB: Country = {
   localities: new Map([
     ['CE', ['Central', Subdivisions.PROVINCE]],
     ['CH', ['Choiseul', Subdivisions.PROVINCE]],
-    ['CT', ['Capital Territory', Subdivisions.TERRITORY]],
+    ['CT', ['Capital Territory (Honiara)', Subdivisions.CAPITAL_TERRITORY]],
     ['GU', ['Guadalcanal', Subdivisions.PROVINCE]],
     ['IS', ['Isabel', Subdivisions.PROVINCE]],
     ['MK', ['Makira-Ulawa', Subdivisions.PROVINCE]],

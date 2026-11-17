@@ -26,7 +26,7 @@ export const ECU: Country = {
     ['O', ['El Oro', Subdivisions.PROVINCE]],
     ['P', ['Pichincha', Subdivisions.PROVINCE]],
     ['R', ['Los Ríos', Subdivisions.PROVINCE]],
-    ['S', ['Morona-Santiago', Subdivisions.PROVINCE]],
+    ['S', ['Morona Santiago', Subdivisions.PROVINCE]],
     ['SD', ['Santo Domingo de los Tsáchilas', Subdivisions.PROVINCE]],
     ['SE', ['Santa Elena', Subdivisions.PROVINCE]],
     ['T', ['Tungurahua', Subdivisions.PROVINCE]],
@@ -34,6 +34,6 @@ export const ECU: Country = {
     ['W', ['Galápagos', Subdivisions.PROVINCE]],
     ['X', ['Cotopaxi', Subdivisions.PROVINCE]],
     ['Y', ['Pastaza', Subdivisions.PROVINCE]],
-    ['Z', ['Zamora-Chinchipe', Subdivisions.PROVINCE]],
+    ['Z', ['Zamora Chinchipe', Subdivisions.PROVINCE]],
   ]),
 }

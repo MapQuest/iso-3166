@@ -13,9 +13,9 @@ export const PAK: Country = {
   undp: 'PAK',
   localities: new Map([
     ['BA', ['Balochistan', Subdivisions.PROVINCE]],
-    ['GB', ['Gilgit-Baltistan', Subdivisions.TERRITORY]],
-    ['IS', ['Islamabad Capital Territory', Subdivisions.TERRITORY]],
-    ['JK', ['Azad Jammu and Kashmir', Subdivisions.TERRITORY]],
+    ['GB', ['Gilgit-Baltistan', Subdivisions.PAKISTAN_ADMINISTERED_AREA]],
+    ['IS', ['Islamabad', Subdivisions.FEDERAL_CAPITAL_TERRITORY, { en: 'Islamabad Capital Territory' }]],
+    ['JK', ['Azad Jammu and Kashmir', Subdivisions.PAKISTAN_ADMINISTERED_AREA]],
     ['KP', ['Khyber Pakhtunkhwa', Subdivisions.PROVINCE]],
     ['PB', ['Punjab', Subdivisions.PROVINCE]],
     ['SD', ['Sindh', Subdivisions.PROVINCE]],

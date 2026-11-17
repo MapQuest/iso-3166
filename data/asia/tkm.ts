@@ -14,9 +14,9 @@ export const TKM: Country = {
   localities: new Map([
     ['A', ['Ahal', Subdivisions.REGION]],
     ['B', ['Balkan', Subdivisions.REGION]],
-    ['D', ['Dashoguz', Subdivisions.REGION]],
+    ['D', ['Daşoguz', Subdivisions.REGION, { en: 'Dashoguz' }]],
     ['L', ['Lebap', Subdivisions.REGION]],
     ['M', ['Mary', Subdivisions.REGION]],
-    ['S', ['Ashgabat', Subdivisions.CITY]],
+    ['S', ['Aşgabat', Subdivisions.CITY, { en: 'Ashgabat' }]],
   ]),
 }

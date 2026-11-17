@@ -11,8 +11,8 @@ export const NIC: Country = {
   numeric: 558,
   undp: 'NIC',
   localities: new Map([
-    ['AN', ['Atlántico Norte', Subdivisions.AUTONOMOUS_REGION, { en: 'North Caribbean Coast' }]],
-    ['AS', ['Atlántico Sur', Subdivisions.AUTONOMOUS_REGION, { en: 'South Caribbean Coast' }]],
+    ['AN', ['Costa Caribe Norte', Subdivisions.AUTONOMOUS_REGION, { en: 'North Caribbean Coast' }]],
+    ['AS', ['Costa Caribe Sur', Subdivisions.AUTONOMOUS_REGION, { en: 'South Caribbean Coast' }]],
     ['BO', ['Boaco', Subdivisions.DEPARTMENT]],
     ['CA', ['Carazo', Subdivisions.DEPARTMENT]],
     ['CI', ['Chinandega', Subdivisions.DEPARTMENT]],

@@ -22,8 +22,9 @@ export const PAN: Country = {
     ['8', ['Panamá', Subdivisions.PROVINCE]],
     ['9', ['Veraguas', Subdivisions.PROVINCE]],
     ['10', ['Panamá Oeste', Subdivisions.PROVINCE]],
-    ['EM', ['Emberá', Subdivisions.AUTONOMOUS_REGION]],
-    ['KY', ['Kuna Yala', Subdivisions.AUTONOMOUS_REGION]],
-    ['NB', ['Ngöbe-Buglé', Subdivisions.AUTONOMOUS_REGION]],
+    ['EM', ['Emberá', Subdivisions.INDIGENOUS_REGION]],
+    ['KY', ['Guna Yala', Subdivisions.INDIGENOUS_REGION]],
+    ['NB', ['Ngäbe-Buglé', Subdivisions.INDIGENOUS_REGION]],
+    ['NT', ['Naso Tjër Di', Subdivisions.INDIGENOUS_REGION]],
   ]),
 }

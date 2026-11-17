@@ -33,6 +33,7 @@ export const BHS: Country = {
     ['MI', ["Moore's Island", Subdivisions.DISTRICT]],
     ['NE', ['North Eleuthera', Subdivisions.DISTRICT]],
     ['NO', ['North Abaco', Subdivisions.DISTRICT]],
+    ['NP', ['New Providence', Subdivisions.ISLAND]],
     ['NS', ['North Andros', Subdivisions.DISTRICT]],
     ['RC', ['Rum Cay', Subdivisions.DISTRICT]],
     ['RI', ['Ragged Island', Subdivisions.DISTRICT]],

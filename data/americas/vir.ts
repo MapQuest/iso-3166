@@ -1,4 +1,3 @@
-import { Subdivisions } from '../subdivisions.js'
 import type { Country } from '../types.js'
 
 export const VIR: Country = {
@@ -10,9 +9,4 @@ export const VIR: Country = {
   ioc: 'ISV',
   numeric: 850,
   undp: 'VIR',
-  localities: new Map([
-    ['C', ['Saint Croix', Subdivisions.DISTRICT]],
-    ['J', ['Saint John', Subdivisions.DISTRICT]],
-    ['T', ['Saint Thomas', Subdivisions.DISTRICT]],
-  ]),
 }

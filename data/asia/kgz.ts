@@ -14,7 +14,7 @@ export const KGZ: Country = {
   localities: new Map([
     ['B', ['Batken', Subdivisions.REGION]],
     ['C', ['Chuy', Subdivisions.REGION]],
-    ['GB', ['Bishkek', Subdivisions.CITY]],
+    ['GB', ['Bishkek Shaary', Subdivisions.CITY, { en: 'Bishkek' }]],
     ['GO', ['Osh', Subdivisions.CITY]],
     ['J', ['Jalal-Abad', Subdivisions.REGION]],
     ['N', ['Naryn', Subdivisions.REGION]],

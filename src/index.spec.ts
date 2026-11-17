@@ -33,7 +33,7 @@ describe('.country()', () => {
     expect(country('Vietnam'))
       .toStrictEqual(expect.objectContaining({ alpha3: 'VNM', name: 'Viet Nam' }))
     expect(country('Turkiye'))
-      .toStrictEqual(expect.objectContaining({ alpha3: 'TUR', name: 'Turkey' }))
+      .toStrictEqual(expect.objectContaining({ alpha3: 'TUR', name: 'Türkiye' }))
     expect(country('The Netherlands'))
       .toStrictEqual(expect.objectContaining({ alpha3: 'NLD', name: 'Netherlands' }))
     expect(country('St. Lucia'))

@@ -30,7 +30,7 @@ export const AFG: Country = {
     ['KAP', ['Kāpīsā', Subdivisions.PROVINCE]],
     ['KDZ', ['Kunduz', Subdivisions.PROVINCE]],
     ['KHO', ['Khōst', Subdivisions.PROVINCE]],
-    ['KNR', ['Kunar', Subdivisions.PROVINCE]],
+    ['KNR', ['Kunaṟ', Subdivisions.PROVINCE]],
     ['LAG', ['Laghmān', Subdivisions.PROVINCE]],
     ['LOG', ['Lōgar', Subdivisions.PROVINCE]],
     ['NAN', ['Nangarhār', Subdivisions.PROVINCE]],

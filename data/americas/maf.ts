@@ -1,7 +1,8 @@
 import type { Country } from '../types.js'
 
 export const MAF: Country = {
-  name: 'Saint Martin',
+  name: 'Saint Martin (French part)',
+  names: { en: 'Saint Martin' },
   e164: 590,
   fips: 'RN',
   alpha2: 'MF',

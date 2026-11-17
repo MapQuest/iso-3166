@@ -24,8 +24,8 @@ export const MYS: Country = {
     ['11', ['Terengganu', Subdivisions.STATE]],
     ['12', ['Sabah', Subdivisions.STATE]],
     ['13', ['Sarawak', Subdivisions.STATE]],
-    ['14', ['Wilayah Persekutuan Kuala Lumpur', Subdivisions.TERRITORY]],
-    ['15', ['Wilayah Persekutuan Labuan', Subdivisions.TERRITORY]],
-    ['16', ['Wilayah Persekutuan Putrajaya', Subdivisions.TERRITORY]],
+    ['14', ['Wilayah Persekutuan Kuala Lumpur', Subdivisions.FEDERAL_TERRITORY]],
+    ['15', ['Wilayah Persekutuan Labuan', Subdivisions.FEDERAL_TERRITORY]],
+    ['16', ['Wilayah Persekutuan Putrajaya', Subdivisions.FEDERAL_TERRITORY]],
   ]),
 }

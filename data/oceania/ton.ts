@@ -11,7 +11,7 @@ export const TON: Country = {
   numeric: 776,
   undp: 'TON',
   localities: new Map([
-    ['01', ['Eua', Subdivisions.DIVISION]],
+    ['01', ['\'Eua', Subdivisions.DIVISION, { en: 'Eua' }]],
     ['02', ['Ha\'apai', Subdivisions.DIVISION]],
     ['03', ['Niuas', Subdivisions.DIVISION]],
     ['04', ['Tongatapu', Subdivisions.DIVISION]],

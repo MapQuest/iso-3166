@@ -1,4 +1,3 @@
-import { Subdivisions } from '../subdivisions.js'
 import type { Country } from '../types.js'
 
 export const MNP: Country = {
@@ -10,10 +9,4 @@ export const MNP: Country = {
   ioc: 'NMA',
   numeric: 580,
   undp: 'MNP',
-  localities: new Map([
-    ['100', ['Rota', Subdivisions.MUNICIPALITY]],
-    ['110', ['Saipan', Subdivisions.MUNICIPALITY]],
-    ['120', ['Tinian', Subdivisions.MUNICIPALITY]],
-    ['010', ['Northern Islands', Subdivisions.MUNICIPALITY]],
-  ]),
 }

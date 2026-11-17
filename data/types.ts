@@ -1,7 +1,14 @@
 import type { SubdivisionType } from './subdivisions.js'
 
 /**
- * Localized names keyed by BCP 47 locale tag.
+ * Alternate names keyed by BCP 47 locale tag or the reserved keys `native` and `local`.
+ *
+ * For subdivisions, `local` is a variant explicitly listed in ISO 3166-2's
+ * "Local variant" column. It is not an inferred abbreviation or necessarily
+ * an English translation. Keep a distinct English name under `en`; do not
+ * duplicate the same value under both keys.
+ *
+ * For example: `{ local: 'Chungbuk', en: 'North Chungcheong' }`.
  *
  * The reserved key `native` is the official endonym — the name the country
  * or subdivision uses to refer to *itself* in its primary official language.
@@ -21,7 +28,7 @@ import type { SubdivisionType } from './subdivisions.js'
  */
 export type LocalizedNames = Record<string, string>
 
-/** Subdivision entry: name, administrative type, and optional localized names */
+/** Subdivision entry: ISO name, administrative type, and optional local variants or localized names */
 export type Locality = [name: string, type: SubdivisionType, names?: LocalizedNames]
 
 /** A subdivision lookup result with its codes and shared parent country. */

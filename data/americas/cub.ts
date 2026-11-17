@@ -26,6 +26,6 @@ export const CUB: Country = {
     ['14', ['Guantánamo', Subdivisions.PROVINCE]],
     ['15', ['Artemisa', Subdivisions.PROVINCE]],
     ['16', ['Mayabeque', Subdivisions.PROVINCE]],
-    ['99', ['Isla de la Juventud', Subdivisions.MUNICIPALITY, { en: 'Isle of Youth' }]],
+    ['99', ['Isla de la Juventud', Subdivisions.SPECIAL_MUNICIPALITY, { en: 'Isle of Youth' }]],
   ]),
 }

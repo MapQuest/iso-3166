@@ -12,8 +12,8 @@ export const WLF: Country = {
   numeric: 876,
   undp: 'WLF',
   localities: new Map([
-    ['AL', ['Alo', Subdivisions.KINGDOM]],
-    ['SG', ['Sigave', Subdivisions.KINGDOM]],
-    ['UV', ['Uvea', Subdivisions.KINGDOM]],
+    ['AL', ['Alo', Subdivisions.ADMINISTRATIVE_PRECINCT]],
+    ['SG', ['Sigave', Subdivisions.ADMINISTRATIVE_PRECINCT]],
+    ['UV', ['Uvea', Subdivisions.ADMINISTRATIVE_PRECINCT]],
   ]),
 }

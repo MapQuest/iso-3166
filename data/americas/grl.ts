@@ -11,10 +11,10 @@ export const GRL: Country = {
   numeric: 304,
   undp: 'GRL',
   localities: new Map([
-    ['AV', ['Avannaata', Subdivisions.MUNICIPALITY]],
-    ['KU', ['Kujalleq', Subdivisions.MUNICIPALITY]],
-    ['QT', ['Qeqertalik', Subdivisions.MUNICIPALITY]],
-    ['SM', ['Sermersooq', Subdivisions.MUNICIPALITY]],
-    ['QE', ['Qeqqata', Subdivisions.MUNICIPALITY]],
+    ['AV', ['Avannaata Kommunia', Subdivisions.MUNICIPALITY]],
+    ['KU', ['Kommune Kujalleq', Subdivisions.MUNICIPALITY]],
+    ['QT', ['Kommune Qeqertalik', Subdivisions.MUNICIPALITY]],
+    ['SM', ['Kommuneqarfik Sermersooq', Subdivisions.MUNICIPALITY]],
+    ['QE', ['Qeqqata Kommunia', Subdivisions.MUNICIPALITY]],
   ]),
 }

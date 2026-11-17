@@ -2,7 +2,8 @@ import { Subdivisions } from '../subdivisions.js'
 import type { Country } from '../types.js'
 
 export const BOL: Country = {
-  name: 'Bolivia',
+  name: 'Bolivia (Plurinational State of)',
+  names: { en: 'Bolivia' },
   e164: 591,
   fips: 'BL',
   alpha2: 'BO',

@@ -12,10 +12,10 @@ export const TJK: Country = {
   numeric: 762,
   undp: 'TJK',
   localities: new Map([
-    ['DU', ['Dushanbe', Subdivisions.CITY]],
-    ['GB', ['Gorno-Badakhshan', Subdivisions.AUTONOMOUS_REGION]],
+    ['DU', ['Dushanbe', Subdivisions.CAPITAL_TERRITORY]],
+    ['GB', ['Kŭhistoni Badakhshon', Subdivisions.AUTONOMOUS_REGION, { en: 'Gorno-Badakhshan' }]],
     ['KT', ['Khatlon', Subdivisions.REGION]],
     ['SU', ['Sughd', Subdivisions.REGION]],
-    ['RA', ['Districts of Republican Subordination', Subdivisions.REGION]],
+    ['RA', ['nohiyahoi tobei jumhurí', Subdivisions.DISTRICTS_UNDER_REPUBLIC_ADMINISTRATION, { en: 'Districts of Republican Subordination' }]],
   ]),
 }

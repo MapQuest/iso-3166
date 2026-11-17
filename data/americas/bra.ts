@@ -18,7 +18,7 @@ export const BRA: Country = {
     ['AP', ['Amapá', Subdivisions.STATE]],
     ['BA', ['Bahia', Subdivisions.STATE]],
     ['CE', ['Ceará', Subdivisions.STATE]],
-    ['DF', ['Distrito Federal', Subdivisions.DISTRICT]],
+    ['DF', ['Distrito Federal', Subdivisions.FEDERAL_DISTRICT]],
     ['ES', ['Espírito Santo', Subdivisions.STATE]],
     ['GO', ['Goiás', Subdivisions.STATE]],
     ['MA', ['Maranhão', Subdivisions.STATE]],

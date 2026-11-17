@@ -14,7 +14,7 @@ export const HTI: Country = {
   localities: new Map([
     ['AR', ['Artibonite', Subdivisions.DEPARTMENT]],
     ['CE', ['Centre', Subdivisions.DEPARTMENT]],
-    ['GA', ["Grand'Anse", Subdivisions.DEPARTMENT]],
+    ['GA', ['Grande’Anse', Subdivisions.DEPARTMENT]],
     ['NI', ['Nippes', Subdivisions.DEPARTMENT]],
     ['ND', ['Nord', Subdivisions.DEPARTMENT, { en: 'North' }]],
     ['NE', ['Nord-Est', Subdivisions.DEPARTMENT, { en: 'Northeast' }]],

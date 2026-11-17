@@ -26,6 +26,6 @@ export const MMR: Country = {
     ['15', ['Mon', Subdivisions.STATE]],
     ['16', ['Rakhine', Subdivisions.STATE]],
     ['17', ['Shan', Subdivisions.STATE]],
-    ['18', ['Nay Pyi Taw', Subdivisions.TERRITORY]],
+    ['18', ['Nay Pyi Taw', Subdivisions.UNION_TERRITORY]],
   ]),
 }

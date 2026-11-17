@@ -16,7 +16,7 @@ export const TLS: Country = {
     ['BA', ['Baucau', Subdivisions.MUNICIPALITY]],
     ['BO', ['Bobonaro', Subdivisions.MUNICIPALITY]],
     ['CO', ['Cova Lima', Subdivisions.MUNICIPALITY]],
-    ['DI', ['Dili', Subdivisions.MUNICIPALITY]],
+    ['DI', ['Díli', Subdivisions.MUNICIPALITY]],
     ['ER', ['Ermera', Subdivisions.MUNICIPALITY]],
     ['LA', ['Lautem', Subdivisions.MUNICIPALITY]],
     ['LI', ['Liquiçá', Subdivisions.MUNICIPALITY]],

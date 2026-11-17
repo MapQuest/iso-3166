@@ -45,6 +45,6 @@ export const LKA: Country = {
     ['81', ['Badulla', Subdivisions.DISTRICT]],
     ['82', ['Monaragala', Subdivisions.DISTRICT]],
     ['91', ['Ratnapura', Subdivisions.DISTRICT]],
-    ['92', ['Kegalle', Subdivisions.DISTRICT]],
+    ['92', ['Kegalla', Subdivisions.DISTRICT]],
   ]),
 }
