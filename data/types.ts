@@ -1,7 +1,8 @@
 import type { SubdivisionType } from './subdivisions.js'
 
 /**
- * Alternate names keyed by BCP 47 locale tag or the reserved keys `native` and `local`.
+ * Alternate names keyed by BCP 47 locale tag or the reserved keys `native`,
+ * `local`, and `aliases`.
  *
  * For subdivisions, `local` is a variant explicitly listed in ISO 3166-2's
  * "Local variant" column. It is not an inferred abbreviation or necessarily
@@ -9,6 +10,9 @@ import type { SubdivisionType } from './subdivisions.js'
  * duplicate the same value under both keys.
  *
  * For example: `{ local: 'Chungbuk', en: 'North Chungcheong' }`.
+ *
+ * Names without a language or ISO-local-variant classification belong in
+ * the `aliases` string array. Localized name entries use string values.
  *
  * The reserved key `native` is the official endonym — the name the country
  * or subdivision uses to refer to *itself* in its primary official language.
@@ -26,9 +30,16 @@ import type { SubdivisionType } from './subdivisions.js'
  *
  * @example { native: 'Türkiye', fr: 'Turquie', de: 'Türkei' }
  */
-export type LocalizedNames = Record<string, string>
+export type LocalizedNames = Record<string, string | string[]> & {
+  /** Alternative names or spellings independent of language. */
+  aliases?: string[]
+}
 
-/** Subdivision entry: ISO name, administrative type, and optional local variants or localized names */
+/**
+ * Subdivision entry: ISO name, administrative type, and optional names and aliases.
+ *
+ * @example ['Es-Semara', Subdivisions.PROVINCE, { aliases: ['Es Smara', 'Smara'] }]
+ */
 export type Locality = [name: string, type: SubdivisionType, names?: LocalizedNames]
 
 /** A subdivision lookup result with its codes and shared parent country. */
@@ -66,13 +77,14 @@ export interface Country {
    */
   name: string
   /**
-   * Localized country names keyed by BCP 47 tag.
+   * Localized country names keyed by BCP 47 tag or a reserved name key.
    *
    * - `native` — the country's official self-referential endonym, present only
    *   when the primary official language name differs from the ISO 3166-1 short name.
    *   Secondary or minority language names use the appropriate BCP 47 tag
    *   instead (e.g. `mi` for Māori, `fr` for French).
    * - `en` — common English name when it differs from the ISO short name in `name`
+   * - `aliases` — alternative names or spellings independent of language
    *
    * @example { native: 'Việt Nam', en: 'Vietnam' }
    * @example { native: 'Deutschland', fr: 'Allemagne' }
@@ -80,7 +92,7 @@ export interface Country {
    */
   names?: LocalizedNames
   /** ITU-T E.164 international calling code (e.g. `1` for the US, `44` for the UK) */
-  e164: number
+  e164?: number
   /** FIPS 10-4 two-letter country code, if assigned (e.g. `"US"`) */
   fips?: string
   /** ISO 3166-1 alpha-2 two-letter country code (e.g. `"US"`) */
@@ -92,7 +104,7 @@ export interface Country {
   /** ISO 3166-1 numeric three-digit country code, if assigned (e.g. `840` for the US) */
   numeric?: number
   /** United Nations Development Programme country code (e.g. `"USA"`) */
-  undp: string
-  /** ISO 3166-2 subdivisions keyed by code without the country prefix (e.g. `"CA"`), with a tuple of the subdivision name, administrative type, and optional localized names */
+  undp?: string
+  /** ISO 3166-2 subdivisions keyed by code without the country prefix (e.g. `"CA"`), with a tuple of the subdivision name, administrative type, and optional names and aliases */
   subdivisions?: Map<string, Locality>
 }

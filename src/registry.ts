@@ -1,4 +1,4 @@
-import type { Country, Subdivision } from '../data/types.js'
+import type { Country, LocalizedNames, Subdivision } from '../data/types.js'
 
 /**
  * A collection of named Country objects accepted by `register`.
@@ -53,7 +53,7 @@ export function register (...items: Array<Country | CountryPack>): void {
   ).forEach(registerCountry)
 }
 
-/** Index a country's codes, names, and subdivisions using the lookup normalization. */
+/** Index a country's codes, names, aliases, and subdivisions using the lookup normalization. */
 function registerCountry (country: Country): void {
   const entry: CountryRegistration = {
     country,
@@ -64,9 +64,15 @@ function registerCountry (country: Country): void {
   registry.set(normalize(country.alpha2), entry)
   registry.set(normalize(country.alpha3), entry)
 
-  for (const name of Object.values(country.names || {})) {
+  for (const name of getNames(country.names)) {
     registry.set(normalize(name), entry)
   }
+}
+
+/** Collect localized names before aliases to preserve registration precedence. */
+function getNames (names: LocalizedNames = {}): string[] {
+  const { aliases = [], ...localizedNames } = names
+  return [...Object.values(localizedNames).flat(), ...aliases]
 }
 
 /** Build a country's shared subdivision index for normalized codes and names. */
@@ -82,7 +88,7 @@ function registerSubdivisions (country: Country): CountryRegistration['subdivisi
     }
     subdivisions.set(normalize(name), result)
     subdivisions.set(normalize(regionCode), result)
-    for (const alias of Object.values(localizedNames || {})) {
+    for (const alias of getNames(localizedNames)) {
       subdivisions.set(normalize(alias), result)
     }
   }

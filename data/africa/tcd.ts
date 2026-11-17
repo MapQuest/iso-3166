@@ -1,0 +1,37 @@
+import { Subdivisions } from '../subdivisions.js'
+import type { Country } from '../types.js'
+
+export const TCD: Country = {
+  name: 'Chad',
+  e164: 235,
+  fips: 'CD',
+  alpha2: 'TD',
+  alpha3: 'TCD',
+  ioc: 'CHA',
+  numeric: 148,
+  subdivisions: new Map([
+    ['BA', ['Batha', Subdivisions.PROVINCE, { aliases: ['Al Baţḩah'] }]],
+    ['BG', ['Bahr el Ghazal', Subdivisions.PROVINCE, { local: 'Barh-el-Ghazal', ar: 'Baḩr al Ghazāl' }]],
+    ['BO', ['Borkou', Subdivisions.PROVINCE]],
+    ['CB', ['Chari-Baguirmi', Subdivisions.PROVINCE]],
+    ['EE', ['Ennedi-Est', Subdivisions.PROVINCE]],
+    ['EO', ['Ennedi-Ouest', Subdivisions.PROVINCE]],
+    ['GR', ['Guéra', Subdivisions.PROVINCE]],
+    ['HL', ['Hadjer Lamis', Subdivisions.PROVINCE]],
+    ['KA', ['Kanem', Subdivisions.PROVINCE]],
+    ['LC', ['Lac', Subdivisions.PROVINCE, { ar: 'Al Buḩayrah' }]],
+    ['LO', ['Logone-Occidental', Subdivisions.PROVINCE]],
+    ['LR', ['Logone-Oriental', Subdivisions.PROVINCE]],
+    ['MA', ['Mandoul', Subdivisions.PROVINCE]],
+    ['MC', ['Moyen-Chari', Subdivisions.PROVINCE]],
+    ['ME', ['Mayo-Kebbi-Est', Subdivisions.PROVINCE]],
+    ['MO', ['Mayo-Kebbi-Ouest', Subdivisions.PROVINCE]],
+    ['ND', ['Ville de Ndjamena', Subdivisions.PROVINCE, { ar: 'Madīnat Injamīnā' }]],
+    ['OD', ['Ouaddaï', Subdivisions.PROVINCE]],
+    ['SA', ['Salamat', Subdivisions.PROVINCE]],
+    ['SI', ['Sila', Subdivisions.PROVINCE]],
+    ['TA', ['Tandjilé', Subdivisions.PROVINCE]],
+    ['TI', ['Tibesti', Subdivisions.PROVINCE, { ar: 'Tibastī' }]],
+    ['WF', ['Wadi Fira', Subdivisions.PROVINCE]],
+  ]),
+}

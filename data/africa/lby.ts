@@ -1,0 +1,36 @@
+import { Subdivisions } from '../subdivisions.js'
+import type { Country } from '../types.js'
+
+export const LBY: Country = {
+  name: 'Libya',
+  e164: 218,
+  fips: 'LY',
+  alpha2: 'LY',
+  alpha3: 'LBY',
+  ioc: 'LBA',
+  numeric: 434,
+  subdivisions: new Map([
+    ['BA', ['Banghāzī', Subdivisions.POPULARATE]],
+    ['BU', ['Al Buţnān', Subdivisions.POPULARATE]],
+    ['DR', ['Darnah', Subdivisions.POPULARATE]],
+    ['GT', ['Ghāt', Subdivisions.POPULARATE]],
+    ['JA', ['Al Jabal al Akhḑar', Subdivisions.POPULARATE]],
+    ['JG', ['Al Jabal al Gharbī', Subdivisions.POPULARATE]],
+    ['JI', ['Al Jafārah', Subdivisions.POPULARATE, { aliases: ['Al Jifārah'] }]],
+    ['JU', ['Al Jufrah', Subdivisions.POPULARATE]],
+    ['KF', ['Al Kufrah', Subdivisions.POPULARATE]],
+    ['MB', ['Al Marqab', Subdivisions.POPULARATE]],
+    ['MI', ['Mişrātah', Subdivisions.POPULARATE]],
+    ['MJ', ['Al Marj', Subdivisions.POPULARATE]],
+    ['MQ', ['Murzuq', Subdivisions.POPULARATE]],
+    ['NL', ['Nālūt', Subdivisions.POPULARATE]],
+    ['NQ', ['An Nuqāţ al Khams', Subdivisions.POPULARATE]],
+    ['SB', ['Sabhā', Subdivisions.POPULARATE]],
+    ['SR', ['Surt', Subdivisions.POPULARATE]],
+    ['TB', ['Ţarābulus', Subdivisions.POPULARATE]],
+    ['WA', ['Al Wāḩāt', Subdivisions.POPULARATE]],
+    ['WD', ['Wādī al Ḩayāt', Subdivisions.POPULARATE]],
+    ['WS', ['Wādī ash Shāţi’', Subdivisions.POPULARATE]],
+    ['ZA', ['Az Zāwiyah', Subdivisions.POPULARATE]],
+  ]),
+}

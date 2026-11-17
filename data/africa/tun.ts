@@ -1,0 +1,38 @@
+import { Subdivisions } from '../subdivisions.js'
+import type { Country } from '../types.js'
+
+export const TUN: Country = {
+  name: 'Tunisia',
+  e164: 216,
+  fips: 'TS',
+  alpha2: 'TN',
+  alpha3: 'TUN',
+  ioc: 'TUN',
+  numeric: 788,
+  subdivisions: new Map([
+    ['11', ['Tunis', Subdivisions.GOVERNORATE]],
+    ['12', ['L\'Ariana', Subdivisions.GOVERNORATE, { aliases: ['Ariana'] }]],
+    ['13', ['Ben Arous', Subdivisions.GOVERNORATE]],
+    ['14', ['La Manouba', Subdivisions.GOVERNORATE]],
+    ['21', ['Nabeul', Subdivisions.GOVERNORATE]],
+    ['22', ['Zaghouan', Subdivisions.GOVERNORATE]],
+    ['23', ['Bizerte', Subdivisions.GOVERNORATE]],
+    ['31', ['Béja', Subdivisions.GOVERNORATE]],
+    ['32', ['Jendouba', Subdivisions.GOVERNORATE]],
+    ['33', ['Le Kef', Subdivisions.GOVERNORATE]],
+    ['34', ['Siliana', Subdivisions.GOVERNORATE]],
+    ['41', ['Kairouan', Subdivisions.GOVERNORATE]],
+    ['42', ['Kasserine', Subdivisions.GOVERNORATE]],
+    ['43', ['Sidi Bouzid', Subdivisions.GOVERNORATE]],
+    ['51', ['Sousse', Subdivisions.GOVERNORATE]],
+    ['52', ['Monastir', Subdivisions.GOVERNORATE]],
+    ['53', ['Mahdia', Subdivisions.GOVERNORATE]],
+    ['61', ['Sfax', Subdivisions.GOVERNORATE]],
+    ['71', ['Gafsa', Subdivisions.GOVERNORATE]],
+    ['72', ['Tozeur', Subdivisions.GOVERNORATE]],
+    ['73', ['Kébili', Subdivisions.GOVERNORATE]],
+    ['81', ['Gabès', Subdivisions.GOVERNORATE]],
+    ['82', ['Médenine', Subdivisions.GOVERNORATE]],
+    ['83', ['Tataouine', Subdivisions.GOVERNORATE]],
+  ]),
+}

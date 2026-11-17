@@ -25,7 +25,7 @@ export type { CountryPack } from './registry.js'
 export { register } from './registry.js'
 
 /**
- * Look up a country by name, localized name, alpha-2, or alpha-3 code.
+ * Look up a country by name, localized name, name alias, alpha-2, or alpha-3 code.
  *
  * @param query - Case-insensitive search string (e.g. `'Canada'`, `'CA'`, `'CAN'`, `'Le Canada'`)
  * @returns The matching Country, or `undefined` if not found
@@ -38,7 +38,7 @@ export function country (query: string): Country | undefined {
  * Look up a subdivision within a registered country.
  *
  * @param query - Full subdivision code (e.g. `'JP-27'`), or a country name or alpha-2/alpha-3 code
- * @param regionQuery - Subdivision code without its country prefix, name, or localized name
+ * @param regionQuery - Subdivision code without its country prefix, name, localized name, or name alias
  * @returns A shared cached result (readonly in TypeScript, not frozen at runtime), or `undefined` if not found
  */
 export function subdivision (query: string, regionQuery?: string): Readonly<Subdivision> | undefined {

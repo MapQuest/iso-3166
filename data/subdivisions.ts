@@ -5,14 +5,19 @@
  * sovereign states and dependent territories in the ISO 3166-2 standard.
  */
 export const Subdivisions = {
+  ADMINISTRATION: 'Administration',
   /** An atoll administered as a subdivision (e.g. atolls of the Maldives) */
   ADMINISTRATIVE_ATOLL: 'Administrative Atoll',
   /** An administrative precinct (e.g. subdivisions of Wallis and Futuna) */
   ADMINISTRATIVE_PRECINCT: 'Administrative Precinct',
+  ADMINISTRATIVE_REGION: 'Administrative Region',
+  AREA: 'Area',
+  AUTONOMOUS_DISTRICT: 'Autonomous District',
   /** A municipality classified as autonomous (e.g. Phnom Penh in Cambodia) */
   AUTONOMOUS_MUNICIPALITY: 'Autonomous Municipality',
   /** A self-governing region with legislative autonomy (e.g. Åland Islands in Finland) */
   AUTONOMOUS_REGION: 'Autonomous Region',
+  AUTONOMOUS_SECTOR: 'Autonomous Sector',
   /** A municipal subdivision typically used in large cities (e.g. boroughs of New York City) */
   BOROUGH: 'Borough',
   /** A subdivision classified as a capital (e.g. Asunción in Paraguay) */
@@ -27,6 +32,7 @@ export const Subdivisions = {
   CHAIN_OF_ISLANDS: 'Chain (of Islands)',
   /** An incorporated urban area with its own local government (e.g. Busan in South Korea) */
   CITY: 'City',
+  COMMUNE: 'Commune',
   /** A constituent country within a larger state (e.g. Aruba in the Netherlands) */
   COUNTRY: 'Country',
   /** A regional administrative division common in the US, UK, and Ireland */
@@ -41,6 +47,7 @@ export const Subdivisions = {
   DISTRICTS_UNDER_REPUBLIC_ADMINISTRATION: 'Districts Under Republic Administration',
   /** An administrative unit used in countries like Bangladesh and Pakistan */
   DIVISION: 'Division',
+  ECONOMIC_PREFECTURE: 'Economic Prefecture',
   /** A territory classified as a federal capital territory (e.g. Islamabad in Pakistan) */
   FEDERAL_CAPITAL_TERRITORY: 'Federal Capital Territory',
   /** A dependency classified as federal (e.g. Dependencias Federales in Venezuela) */
@@ -51,8 +58,11 @@ export const Subdivisions = {
   FEDERAL_ENTITY: 'Federal Entity',
   /** A territory classified as federal (e.g. Kuala Lumpur in Malaysia) */
   FEDERAL_TERRITORY: 'Federal Territory',
+  GEOGRAPHICAL_ENTITY: 'Geographical Entity',
+  GEOGRAPHICAL_REGION: 'Geographical Region',
   /** A geographic grouping assigned a subdivision code (e.g. Jawa in Indonesia) */
   GEOGRAPHICAL_UNIT: 'Geographical Unit',
+  GOVERNORATE: 'Governorate',
   /** ISO category for the island groups of Kiribati */
   GROUP_OF_ISLANDS: 'Group of Islands (20 Inhabited Islands)',
   /** A region classified as indigenous (e.g. Guna Yala in Panama) */
@@ -83,12 +93,14 @@ export const Subdivisions = {
   PAKISTAN_ADMINISTERED_AREA: 'Pakistan Administered Area',
   /** A church-based administrative division used in some Caribbean nations (e.g. parishes of Jamaica) */
   PARISH: 'Parish',
+  POPULARATE: 'Popularate',
   /** A top-level administrative division used in Japan */
   PREFECTURE: 'Prefecture',
   /** A major administrative subdivision (e.g. provinces of Canada, China, or Argentina) */
   PROVINCE: 'Province',
   /** A broad administrative area, often grouping smaller divisions (e.g. regions of France or Ghana) */
   REGION: 'Region',
+  REGIONAL_STATE: 'Regional State',
   /** A constituent administrative division designated as a republic within a country */
   REPUBLIC: 'Republic',
   /** A territory with a high degree of autonomy (e.g. Hong Kong, Macau) */
@@ -111,12 +123,14 @@ export const Subdivisions = {
   STATE: 'State',
   /** A geographic area under a state's jurisdiction, often with limited self-governance (e.g. Northern Territory in Australia) */
   TERRITORY: 'Territory',
+  TOWN: 'Town',
   /** A local governing body at the town level (e.g. town councils of Brunei) */
   TOWN_COUNCIL: 'Town Council',
   /** A territory classified as a union territory (e.g. Puducherry in India) */
   UNION_TERRITORY: 'Union Territory',
   /** A single-tier local authority combining county and district functions (e.g. unitary authorities in England) */
   UNITARY: 'Unitary Authority',
+  URBAN_COMMUNITY: 'Urban Community',
   /** A small rural settlement forming its own administrative unit (e.g. village councils of Brunei) */
   VILLAGE: 'Village',
   /** A subdivision classified as a ward (e.g. Tobago in Trinidad and Tobago) */
