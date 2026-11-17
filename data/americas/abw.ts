@@ -9,5 +9,5 @@ export const ABW: Country = {
   ioc: 'ARU',
   numeric: 533,
   undp: 'ABW',
-  localities: new Map(),
+  subdivisions: new Map(),
 }

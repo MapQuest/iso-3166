@@ -9,5 +9,5 @@ export const CUW: Country = {
   alpha3: 'CUW',
   numeric: 531,
   undp: 'CUW',
-  localities: new Map(),
+  subdivisions: new Map(),
 }

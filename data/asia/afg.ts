@@ -11,7 +11,7 @@ export const AFG: Country = {
   ioc: 'AFG',
   numeric: 4,
   undp: 'AFG',
-  localities: new Map([
+  subdivisions: new Map([
     ['BAL', ['Balkh', Subdivisions.PROVINCE]],
     ['BAM', ['Bāmyān', Subdivisions.PROVINCE]],
     ['BDG', ['Bādghīs', Subdivisions.PROVINCE]],

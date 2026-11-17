@@ -10,7 +10,7 @@ export const PNG: Country = {
   ioc: 'PNG',
   numeric: 598,
   undp: 'PNG',
-  localities: new Map([
+  subdivisions: new Map([
     ['CPK', ['Chimbu', Subdivisions.PROVINCE]],
     ['CPM', ['Central', Subdivisions.PROVINCE]],
     ['EBR', ['East New Britain', Subdivisions.PROVINCE]],

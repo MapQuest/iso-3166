@@ -11,7 +11,7 @@ export const USA: Country = {
   ioc: 'USA',
   numeric: 840,
   undp: 'USA',
-  localities: new Map([
+  subdivisions: new Map([
     ['AK', ['Alaska', Subdivisions.STATE]],
     ['AL', ['Alabama', Subdivisions.STATE]],
     ['AR', ['Arkansas', Subdivisions.STATE]],

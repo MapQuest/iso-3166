@@ -11,7 +11,7 @@ export const DOM: Country = {
   ioc: 'DOM',
   numeric: 214,
   undp: 'DOM',
-  localities: new Map([
+  subdivisions: new Map([
     ['01', ['Distrito Nacional (Santo Domingo)', Subdivisions.DISTRICT, { en: 'National District' }]],
     ['02', ['Azua', Subdivisions.PROVINCE]],
     ['03', ['Baoruco', Subdivisions.PROVINCE]],

@@ -10,7 +10,7 @@ export const COL: Country = {
   ioc: 'COL',
   numeric: 170,
   undp: 'COL',
-  localities: new Map([
+  subdivisions: new Map([
     ['AMA', ['Amazonas', Subdivisions.DEPARTMENT]],
     ['ANT', ['Antioquia', Subdivisions.DEPARTMENT]],
     ['ARA', ['Arauca', Subdivisions.DEPARTMENT]],

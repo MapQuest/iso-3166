@@ -11,7 +11,7 @@ export const KOR: Country = {
   ioc: 'KOR',
   numeric: 410,
   undp: 'KOR',
-  localities: new Map([
+  subdivisions: new Map([
     ['11', ['Seoul-teukbyeolsi', Subdivisions.SPECIAL_CITY, { local: 'Seoul' }]],
     ['26', ['Busan-gwangyeoksi', Subdivisions.METROPOLITAN_CITY, { local: 'Busan' }]],
     ['27', ['Daegu-gwangyeoksi', Subdivisions.METROPOLITAN_CITY, { local: 'Daegu' }]],

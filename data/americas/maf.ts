@@ -9,5 +9,5 @@ export const MAF: Country = {
   alpha3: 'MAF',
   numeric: 663,
   undp: 'MAF',
-  localities: new Map(),
+  subdivisions: new Map(),
 }

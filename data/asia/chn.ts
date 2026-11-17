@@ -11,7 +11,7 @@ export const CHN: Country = {
   ioc: 'CHN',
   numeric: 156,
   undp: 'CHN',
-  localities: new Map([
+  subdivisions: new Map([
     ['AH', ['Anhui Sheng', Subdivisions.PROVINCE, { en: 'Anhui' }]],
     ['BJ', ['Beijing Shi', Subdivisions.MUNICIPALITY, { en: 'Beijing' }]],
     ['CQ', ['Chongqing Shi', Subdivisions.MUNICIPALITY, { en: 'Chongqing' }]],

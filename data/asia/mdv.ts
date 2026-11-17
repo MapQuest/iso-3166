@@ -11,7 +11,7 @@ export const MDV: Country = {
   ioc: 'MDV',
   numeric: 462,
   undp: 'MDV',
-  localities: new Map([
+  subdivisions: new Map([
     ['00', ['South Ari Atoll', Subdivisions.ADMINISTRATIVE_ATOLL]],
     ['01', ['Addu City', Subdivisions.CITY]],
     ['02', ['North Ari Atoll', Subdivisions.ADMINISTRATIVE_ATOLL]],

@@ -44,7 +44,7 @@ export interface Subdivision {
 }
 
 /**
- * ISO-3166 country data with optional subdivision localities.
+ * ISO-3166 country data with optional subdivisions.
  *
  * Represents a sovereign state or dependent territory as defined by
  * the ISO 3166-1 standard, with optional ISO 3166-2 subdivision data.
@@ -93,6 +93,6 @@ export interface Country {
   numeric?: number
   /** United Nations Development Programme country code (e.g. `"USA"`) */
   undp: string
-  /** ISO 3166-2 subdivision localities keyed by code without the country prefix (e.g. `"CA"`), with a tuple of the subdivision name, administrative type, and optional localized names */
-  localities?: Map<string, Locality>
+  /** ISO 3166-2 subdivisions keyed by code without the country prefix (e.g. `"CA"`), with a tuple of the subdivision name, administrative type, and optional localized names */
+  subdivisions?: Map<string, Locality>
 }

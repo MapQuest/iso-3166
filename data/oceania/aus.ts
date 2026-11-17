@@ -10,7 +10,7 @@ export const AUS: Country = {
   ioc: 'AUS',
   numeric: 36,
   undp: 'AUS',
-  localities: new Map([
+  subdivisions: new Map([
     ['ACT', ['Australian Capital Territory', Subdivisions.TERRITORY]],
     ['NSW', ['New South Wales', Subdivisions.STATE]],
     ['NT', ['Northern Territory', Subdivisions.TERRITORY]],

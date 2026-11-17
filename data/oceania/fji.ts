@@ -10,7 +10,7 @@ export const FJI: Country = {
   ioc: 'FIJ',
   numeric: 242,
   undp: 'FJI',
-  localities: new Map([
+  subdivisions: new Map([
     ['01', ['Ba', Subdivisions.PROVINCE]],
     ['02', ['Bua', Subdivisions.PROVINCE]],
     ['03', ['Cakaudrove', Subdivisions.PROVINCE]],

@@ -11,7 +11,7 @@ export const IND: Country = {
   ioc: 'IND',
   numeric: 356,
   undp: 'IND',
-  localities: new Map([
+  subdivisions: new Map([
     ['AN', ['Andaman and Nicobar Islands', Subdivisions.UNION_TERRITORY]],
     ['AP', ['Andhra Pradesh', Subdivisions.STATE]],
     ['AR', ['Arunāchal Pradesh', Subdivisions.STATE]],

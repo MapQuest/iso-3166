@@ -11,7 +11,7 @@ export const KHM: Country = {
   ioc: 'CAM',
   numeric: 116,
   undp: 'KHM',
-  localities: new Map([
+  subdivisions: new Map([
     ['1', ['Banteay Mean Choăy', Subdivisions.PROVINCE, { local: 'Banteay Meanchey' }]],
     ['2', ['Baat Dambang', Subdivisions.PROVINCE, { local: 'Battambang' }]],
     ['3', ['Kampong Chaam', Subdivisions.PROVINCE, { local: 'Kampong Cham' }]],

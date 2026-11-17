@@ -11,7 +11,7 @@ export const MEX: Country = {
   ioc: 'MEX',
   numeric: 484,
   undp: 'MEX',
-  localities: new Map([
+  subdivisions: new Map([
     ['AGU', ['Aguascalientes', Subdivisions.STATE]],
     ['BCN', ['Baja California', Subdivisions.STATE]],
     ['BCS', ['Baja California Sur', Subdivisions.STATE]],

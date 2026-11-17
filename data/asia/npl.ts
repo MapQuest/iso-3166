@@ -11,7 +11,7 @@ export const NPL: Country = {
   ioc: 'NEP',
   numeric: 524,
   undp: 'NPL',
-  localities: new Map([
+  subdivisions: new Map([
     ['P1', ['Koshi', Subdivisions.PROVINCE, { local: 'Province 1' }]],
     ['P2', ['Madhesh', Subdivisions.PROVINCE, { local: 'Province 2' }]],
     ['P3', ['Bagmati', Subdivisions.PROVINCE, { local: 'Province 3' }]],

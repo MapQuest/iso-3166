@@ -8,7 +8,7 @@ export const UMI: Country = {
   alpha3: 'UMI',
   numeric: 581,
   undp: 'UMI',
-  localities: new Map([
+  subdivisions: new Map([
     ['67', ['Johnston Atoll', Subdivisions.ISLANDS_GROUPS_OF_ISLANDS]],
     ['71', ['Midway Islands', Subdivisions.ISLANDS_GROUPS_OF_ISLANDS]],
     ['76', ['Navassa Island', Subdivisions.ISLANDS_GROUPS_OF_ISLANDS]],

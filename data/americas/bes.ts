@@ -9,7 +9,7 @@ export const BES: Country = {
   alpha3: 'BES',
   numeric: 535,
   undp: 'BES',
-  localities: new Map([
+  subdivisions: new Map([
     ['BO', ['Bonaire', Subdivisions.SPECIAL_MUNICIPALITY]],
     ['SA', ['Saba', Subdivisions.SPECIAL_MUNICIPALITY]],
     ['SE', ['Sint Eustatius', Subdivisions.SPECIAL_MUNICIPALITY]],

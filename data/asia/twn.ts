@@ -11,7 +11,7 @@ export const TWN: Country = {
   ioc: 'TPE',
   numeric: 158,
   undp: 'TWN',
-  localities: new Map([
+  subdivisions: new Map([
     ['CHA', ['Changhua', Subdivisions.COUNTY]],
     ['CYI', ['Chiayi', Subdivisions.CITY]],
     ['CYQ', ['Chiayi', Subdivisions.COUNTY]],

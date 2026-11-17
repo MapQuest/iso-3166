@@ -10,7 +10,7 @@ export const CHL: Country = {
   ioc: 'CHI',
   numeric: 152,
   undp: 'CHL',
-  localities: new Map([
+  subdivisions: new Map([
     ['AI', ['Aisén del General Carlos Ibañez del Campo', Subdivisions.REGION]],
     ['AN', ['Antofagasta', Subdivisions.REGION]],
     ['AP', ['Arica y Parinacota', Subdivisions.REGION]],

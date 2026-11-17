@@ -10,7 +10,7 @@ export const URY: Country = {
   ioc: 'URU',
   numeric: 858,
   undp: 'URY',
-  localities: new Map([
+  subdivisions: new Map([
     ['AR', ['Artigas', Subdivisions.DEPARTMENT]],
     ['CA', ['Canelones', Subdivisions.DEPARTMENT]],
     ['CL', ['Cerro Largo', Subdivisions.DEPARTMENT]],

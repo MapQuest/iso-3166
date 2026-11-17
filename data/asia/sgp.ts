@@ -11,7 +11,7 @@ export const SGP: Country = {
   ioc: 'SGP',
   numeric: 702,
   undp: 'SGP',
-  localities: new Map([
+  subdivisions: new Map([
     ['01', ['Central Singapore', Subdivisions.DISTRICT]],
     ['02', ['North East', Subdivisions.DISTRICT]],
     ['03', ['North West', Subdivisions.DISTRICT]],

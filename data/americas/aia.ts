@@ -9,5 +9,5 @@ export const AIA: Country = {
   ioc: 'AIA',
   numeric: 660,
   undp: 'AIA',
-  localities: new Map(),
+  subdivisions: new Map(),
 }

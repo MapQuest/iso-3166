@@ -11,7 +11,7 @@ export const MMR: Country = {
   ioc: 'MYA',
   numeric: 104,
   undp: 'MMR',
-  localities: new Map([
+  subdivisions: new Map([
     ['01', ['Sagaing', Subdivisions.REGION]],
     ['02', ['Bago', Subdivisions.REGION]],
     ['03', ['Magway', Subdivisions.REGION]],

@@ -11,7 +11,7 @@ export const NZL: Country = {
   ioc: 'NZL',
   numeric: 554,
   undp: 'NZL',
-  localities: new Map([
+  subdivisions: new Map([
     ['AUK', ['Auckland', Subdivisions.REGION]],
     ['BOP', ['Bay of Plenty', Subdivisions.REGION]],
     ['CAN', ['Canterbury', Subdivisions.REGION]],

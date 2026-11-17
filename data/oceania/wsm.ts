@@ -10,7 +10,7 @@ export const WSM: Country = {
   ioc: 'SAM',
   numeric: 882,
   undp: 'WSM',
-  localities: new Map([
+  subdivisions: new Map([
     ['AA', ['A\'ana', Subdivisions.DISTRICT]],
     ['AL', ['Aiga-i-le-Tai', Subdivisions.DISTRICT]],
     ['AT', ['Atua', Subdivisions.DISTRICT]],

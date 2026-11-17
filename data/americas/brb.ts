@@ -10,7 +10,7 @@ export const BRB: Country = {
   ioc: 'BAR',
   numeric: 52,
   undp: 'BRB',
-  localities: new Map([
+  subdivisions: new Map([
     ['01', ['Christ Church', Subdivisions.PARISH]],
     ['02', ['Saint Andrew', Subdivisions.PARISH]],
     ['03', ['Saint George', Subdivisions.PARISH]],

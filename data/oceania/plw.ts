@@ -11,7 +11,7 @@ export const PLW: Country = {
   ioc: 'PLW',
   numeric: 585,
   undp: 'PLW',
-  localities: new Map([
+  subdivisions: new Map([
     ['002', ['Aimeliik', Subdivisions.STATE]],
     ['004', ['Airai', Subdivisions.STATE]],
     ['010', ['Angaur', Subdivisions.STATE]],

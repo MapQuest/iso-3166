@@ -11,7 +11,7 @@ export const PAK: Country = {
   ioc: 'PAK',
   numeric: 586,
   undp: 'PAK',
-  localities: new Map([
+  subdivisions: new Map([
     ['BA', ['Balochistan', Subdivisions.PROVINCE]],
     ['GB', ['Gilgit-Baltistan', Subdivisions.PAKISTAN_ADMINISTERED_AREA]],
     ['IS', ['Islamabad', Subdivisions.FEDERAL_CAPITAL_TERRITORY, { en: 'Islamabad Capital Territory' }]],

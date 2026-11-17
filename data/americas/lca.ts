@@ -10,7 +10,7 @@ export const LCA: Country = {
   ioc: 'LCA',
   numeric: 662,
   undp: 'LCA',
-  localities: new Map([
+  subdivisions: new Map([
     ['01', ['Anse la Raye', Subdivisions.DISTRICT]],
     ['02', ['Castries', Subdivisions.DISTRICT]],
     ['03', ['Choiseul', Subdivisions.DISTRICT]],

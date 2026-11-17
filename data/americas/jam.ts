@@ -10,7 +10,7 @@ export const JAM: Country = {
   ioc: 'JAM',
   numeric: 388,
   undp: 'JAM',
-  localities: new Map([
+  subdivisions: new Map([
     ['01', ['Kingston', Subdivisions.PARISH]],
     ['02', ['Saint Andrew', Subdivisions.PARISH]],
     ['03', ['Saint Thomas', Subdivisions.PARISH]],

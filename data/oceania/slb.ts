@@ -10,7 +10,7 @@ export const SLB: Country = {
   ioc: 'SOL',
   numeric: 90,
   undp: 'SLB',
-  localities: new Map([
+  subdivisions: new Map([
     ['CE', ['Central', Subdivisions.PROVINCE]],
     ['CH', ['Choiseul', Subdivisions.PROVINCE]],
     ['CT', ['Capital Territory (Honiara)', Subdivisions.CAPITAL_TERRITORY]],

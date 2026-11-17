@@ -10,7 +10,7 @@ export const KNA: Country = {
   ioc: 'SKN',
   numeric: 659,
   undp: 'KNA',
-  localities: new Map([
+  subdivisions: new Map([
     ['01', ['Christ Church Nichola Town', Subdivisions.PARISH]],
     ['02', ['Saint Anne Sandy Point', Subdivisions.PARISH]],
     ['03', ['Saint George Basseterre', Subdivisions.PARISH]],

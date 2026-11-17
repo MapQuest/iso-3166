@@ -11,7 +11,7 @@ export const THA: Country = {
   ioc: 'THA',
   numeric: 764,
   undp: 'THA',
-  localities: new Map([
+  subdivisions: new Map([
     ['10', ['Krung Thep Maha Nakhon', Subdivisions.METROPOLITAN_ADMINISTRATION, { local: 'Bangkok' }]],
     ['11', ['Samut Prakan', Subdivisions.PROVINCE]],
     ['12', ['Nonthaburi', Subdivisions.PROVINCE]],

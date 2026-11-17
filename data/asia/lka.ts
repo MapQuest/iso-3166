@@ -11,7 +11,7 @@ export const LKA: Country = {
   ioc: 'SRI',
   numeric: 144,
   undp: 'LKA',
-  localities: new Map([
+  subdivisions: new Map([
     ['1', ['Western Province', Subdivisions.PROVINCE]],
     ['2', ['Central Province', Subdivisions.PROVINCE]],
     ['3', ['Southern Province', Subdivisions.PROVINCE]],

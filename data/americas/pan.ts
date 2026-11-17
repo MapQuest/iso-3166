@@ -11,7 +11,7 @@ export const PAN: Country = {
   ioc: 'PAN',
   numeric: 591,
   undp: 'PAN',
-  localities: new Map([
+  subdivisions: new Map([
     ['1', ['Bocas del Toro', Subdivisions.PROVINCE]],
     ['2', ['Coclé', Subdivisions.PROVINCE]],
     ['3', ['Colón', Subdivisions.PROVINCE]],

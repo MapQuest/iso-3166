@@ -11,7 +11,7 @@ export const TKM: Country = {
   ioc: 'TKM',
   numeric: 795,
   undp: 'TKM',
-  localities: new Map([
+  subdivisions: new Map([
     ['A', ['Ahal', Subdivisions.REGION]],
     ['B', ['Balkan', Subdivisions.REGION]],
     ['D', ['Daşoguz', Subdivisions.REGION, { en: 'Dashoguz' }]],

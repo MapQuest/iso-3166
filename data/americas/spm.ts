@@ -9,5 +9,5 @@ export const SPM: Country = {
   alpha3: 'SPM',
   numeric: 666,
   undp: 'SPM',
-  localities: new Map(),
+  subdivisions: new Map(),
 }

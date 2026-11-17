@@ -11,7 +11,7 @@ export const PRK: Country = {
   ioc: 'PRK',
   numeric: 408,
   undp: 'PRK',
-  localities: new Map([
+  subdivisions: new Map([
     ['01', ['Pyongyang', Subdivisions.CAPITAL_CITY]],
     ['02', ['South Pyongan', Subdivisions.PROVINCE]],
     ['03', ['North Pyongan', Subdivisions.PROVINCE]],

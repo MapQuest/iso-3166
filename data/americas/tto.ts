@@ -10,7 +10,7 @@ export const TTO: Country = {
   ioc: 'TRI',
   numeric: 780,
   undp: 'TTO',
-  localities: new Map([
+  subdivisions: new Map([
     ['ARI', ['Arima', Subdivisions.BOROUGH]],
     ['CHA', ['Chaguanas', Subdivisions.BOROUGH]],
     ['CTT', ['Couva-Tabaquite-Talparo', Subdivisions.REGION]],

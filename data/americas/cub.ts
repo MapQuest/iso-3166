@@ -10,7 +10,7 @@ export const CUB: Country = {
   ioc: 'CUB',
   numeric: 192,
   undp: 'CUB',
-  localities: new Map([
+  subdivisions: new Map([
     ['01', ['Pinar del Río', Subdivisions.PROVINCE]],
     ['03', ['La Habana', Subdivisions.PROVINCE, { en: 'Havana' }]],
     ['04', ['Matanzas', Subdivisions.PROVINCE]],

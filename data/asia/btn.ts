@@ -11,7 +11,7 @@ export const BTN: Country = {
   ioc: 'BHU',
   numeric: 64,
   undp: 'BTN',
-  localities: new Map([
+  subdivisions: new Map([
     ['11', ['Paro', Subdivisions.DISTRICT]],
     ['12', ['Chhukha', Subdivisions.DISTRICT]],
     ['13', ['Haa', Subdivisions.DISTRICT]],

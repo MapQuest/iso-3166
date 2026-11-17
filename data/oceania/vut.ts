@@ -10,7 +10,7 @@ export const VUT: Country = {
   ioc: 'VAN',
   numeric: 548,
   undp: 'VUT',
-  localities: new Map([
+  subdivisions: new Map([
     ['MAP', ['Malampa', Subdivisions.PROVINCE]],
     ['PAM', ['Pénama', Subdivisions.PROVINCE, { en: 'Penama' }]],
     ['SAM', ['Sanma', Subdivisions.PROVINCE]],

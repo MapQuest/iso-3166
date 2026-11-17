@@ -10,7 +10,7 @@ export const CRI: Country = {
   ioc: 'CRC',
   numeric: 188,
   undp: 'CRI',
-  localities: new Map([
+  subdivisions: new Map([
     ['A', ['Alajuela', Subdivisions.PROVINCE]],
     ['C', ['Cartago', Subdivisions.PROVINCE]],
     ['G', ['Guanacaste', Subdivisions.PROVINCE]],

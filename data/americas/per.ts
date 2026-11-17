@@ -11,7 +11,7 @@ export const PER: Country = {
   ioc: 'PER',
   numeric: 604,
   undp: 'PER',
-  localities: new Map([
+  subdivisions: new Map([
     ['AMA', ['Amazonas', Subdivisions.REGION]],
     ['ANC', ['Ancash', Subdivisions.REGION]],
     ['APU', ['Apurímac', Subdivisions.REGION]],

@@ -11,7 +11,7 @@ export const PHL: Country = {
   ioc: 'PHI',
   numeric: 608,
   undp: 'PHL',
-  localities: new Map([
+  subdivisions: new Map([
     ['00', ['National Capital Region', Subdivisions.REGION]],
     ['01', ['Ilocos (Region I)', Subdivisions.REGION]],
     ['02', ['Cagayan Valley (Region II)', Subdivisions.REGION]],

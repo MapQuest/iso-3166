@@ -9,5 +9,5 @@ export const SXM: Country = {
   alpha3: 'SXM',
   numeric: 534,
   undp: 'SXM',
-  localities: new Map(),
+  subdivisions: new Map(),
 }

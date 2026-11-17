@@ -11,7 +11,7 @@ export const CAN: Country = {
   ioc: 'CAN',
   numeric: 124,
   undp: 'CAN',
-  localities: new Map([
+  subdivisions: new Map([
     ['AB', ['Alberta', Subdivisions.PROVINCE]],
     ['BC', ['British Columbia', Subdivisions.PROVINCE, { fr: 'Colombie-Britannique' }]],
     ['MB', ['Manitoba', Subdivisions.PROVINCE]],

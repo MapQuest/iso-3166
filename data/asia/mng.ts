@@ -11,7 +11,7 @@ export const MNG: Country = {
   ioc: 'MGL',
   numeric: 496,
   undp: 'MNG',
-  localities: new Map([
+  subdivisions: new Map([
     ['1', ['Ulaanbaatar', Subdivisions.CAPITAL_CITY]],
     ['035', ['Orhon', Subdivisions.PROVINCE, { en: 'Orkhon' }]],
     ['037', ['Darhan uul', Subdivisions.PROVINCE, { en: 'Darkhan-Uul' }]],

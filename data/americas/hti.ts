@@ -11,7 +11,7 @@ export const HTI: Country = {
   ioc: 'HAI',
   numeric: 332,
   undp: 'HTI',
-  localities: new Map([
+  subdivisions: new Map([
     ['AR', ['Artibonite', Subdivisions.DEPARTMENT]],
     ['CE', ['Centre', Subdivisions.DEPARTMENT]],
     ['GA', ['Grande’Anse', Subdivisions.DEPARTMENT]],

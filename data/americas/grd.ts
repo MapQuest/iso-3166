@@ -9,7 +9,7 @@ export const GRD: Country = {
   ioc: 'GRN',
   numeric: 308,
   undp: 'GRD',
-  localities: new Map([
+  subdivisions: new Map([
     ['01', ['Saint Andrew', Subdivisions.PARISH]],
     ['02', ['Saint David', Subdivisions.PARISH]],
     ['03', ['Saint George', Subdivisions.PARISH]],

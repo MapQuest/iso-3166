@@ -11,7 +11,7 @@ export const NLD: Country = {
   ioc: 'NED',
   numeric: 528,
   undp: 'NLD',
-  localities: new Map([
+  subdivisions: new Map([
     ['AW', ['Aruba', Subdivisions.COUNTRY]],
     ['BQ1', ['Bonaire', Subdivisions.SPECIAL_MUNICIPALITY]],
     ['BQ2', ['Saba', Subdivisions.SPECIAL_MUNICIPALITY]],

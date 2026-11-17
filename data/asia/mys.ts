@@ -10,7 +10,7 @@ export const MYS: Country = {
   ioc: 'MAS',
   numeric: 458,
   undp: 'MYS',
-  localities: new Map([
+  subdivisions: new Map([
     ['01', ['Johor', Subdivisions.STATE]],
     ['02', ['Kedah', Subdivisions.STATE]],
     ['03', ['Kelantan', Subdivisions.STATE]],

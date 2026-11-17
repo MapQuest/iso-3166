@@ -11,7 +11,7 @@ export const DEU: Country = {
   ioc: 'GER',
   numeric: 276,
   undp: 'DEU',
-  localities: new Map([
+  subdivisions: new Map([
     ['BB', ['Brandenburg', Subdivisions.LAND]],
     ['BE', ['Berlin', Subdivisions.LAND]],
     ['BW', ['Baden-Württemberg', Subdivisions.LAND]],

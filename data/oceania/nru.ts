@@ -10,7 +10,7 @@ export const NRU: Country = {
   ioc: 'NRU',
   numeric: 520,
   undp: 'NRU',
-  localities: new Map([
+  subdivisions: new Map([
     ['01', ['Aiwo', Subdivisions.DISTRICT]],
     ['02', ['Anabar', Subdivisions.DISTRICT]],
     ['03', ['Anetan', Subdivisions.DISTRICT]],

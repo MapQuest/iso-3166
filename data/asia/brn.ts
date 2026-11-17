@@ -11,7 +11,7 @@ export const BRN: Country = {
   ioc: 'BRU',
   numeric: 96,
   undp: 'BRN',
-  localities: new Map([
+  subdivisions: new Map([
     ['BE', ['Belait', Subdivisions.DISTRICT]],
     ['BM', ['Brunei-Muara', Subdivisions.DISTRICT]],
     ['TE', ['Temburong', Subdivisions.DISTRICT]],

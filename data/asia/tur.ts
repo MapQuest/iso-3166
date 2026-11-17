@@ -11,7 +11,7 @@ export const TUR: Country = {
   ioc: 'TUR',
   numeric: 792,
   undp: 'TUR',
-  localities: new Map([
+  subdivisions: new Map([
     ['01', ['Adana', Subdivisions.PROVINCE]],
     ['02', ['Adıyaman', Subdivisions.PROVINCE]],
     ['03', ['Afyonkarahisar', Subdivisions.PROVINCE]],

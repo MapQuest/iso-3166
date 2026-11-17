@@ -10,7 +10,7 @@ export const TLS: Country = {
   ioc: 'TLS',
   numeric: 626,
   undp: 'TLS',
-  localities: new Map([
+  subdivisions: new Map([
     ['AL', ['Aileu', Subdivisions.MUNICIPALITY]],
     ['AN', ['Ainaro', Subdivisions.MUNICIPALITY]],
     ['BA', ['Baucau', Subdivisions.MUNICIPALITY]],

@@ -10,7 +10,7 @@ export const ECU: Country = {
   ioc: 'ECU',
   numeric: 218,
   undp: 'ECU',
-  localities: new Map([
+  subdivisions: new Map([
     ['A', ['Azuay', Subdivisions.PROVINCE]],
     ['B', ['Bolívar', Subdivisions.PROVINCE]],
     ['C', ['Carchi', Subdivisions.PROVINCE]],

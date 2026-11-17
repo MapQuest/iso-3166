@@ -11,7 +11,7 @@ export const BOL: Country = {
   ioc: 'BOL',
   numeric: 68,
   undp: 'BOL',
-  localities: new Map([
+  subdivisions: new Map([
     ['B', ['El Beni', Subdivisions.DEPARTMENT]],
     ['C', ['Cochabamba', Subdivisions.DEPARTMENT]],
     ['H', ['Chuquisaca', Subdivisions.DEPARTMENT]],

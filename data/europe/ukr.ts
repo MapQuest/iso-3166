@@ -11,7 +11,7 @@ export const UKR: Country = {
   ioc: 'UKR',
   numeric: 804,
   undp: 'UKR',
-  localities: new Map([
+  subdivisions: new Map([
     ['05', ['Vinnytska oblast', Subdivisions.REGION]],
     ['07', ['Volynska oblast', Subdivisions.REGION]],
     ['09', ['Luhanska oblast', Subdivisions.REGION]],

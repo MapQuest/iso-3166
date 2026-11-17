@@ -8,5 +8,5 @@ export const MSR: Country = {
   alpha3: 'MSR',
   numeric: 500,
   undp: 'MSR',
-  localities: new Map(),
+  subdivisions: new Map(),
 }

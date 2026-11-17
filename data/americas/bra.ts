@@ -11,7 +11,7 @@ export const BRA: Country = {
   ioc: 'BRA',
   numeric: 76,
   undp: 'BRA',
-  localities: new Map([
+  subdivisions: new Map([
     ['AC', ['Acre', Subdivisions.STATE]],
     ['AL', ['Alagoas', Subdivisions.STATE]],
     ['AM', ['Amazonas', Subdivisions.STATE]],

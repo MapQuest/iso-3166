@@ -10,7 +10,7 @@ export const BLZ: Country = {
   ioc: 'BIZ',
   numeric: 84,
   undp: 'BLZ',
-  localities: new Map([
+  subdivisions: new Map([
     ['BZ', ['Belize', Subdivisions.DISTRICT]],
     ['CY', ['Cayo', Subdivisions.DISTRICT]],
     ['CZL', ['Corozal', Subdivisions.DISTRICT]],

@@ -9,5 +9,5 @@ export const CYM: Country = {
   ioc: 'CAY',
   numeric: 136,
   undp: 'CYM',
-  localities: new Map(),
+  subdivisions: new Map(),
 }

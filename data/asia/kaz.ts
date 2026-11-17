@@ -11,7 +11,7 @@ export const KAZ: Country = {
   ioc: 'KAZ',
   numeric: 398,
   undp: 'KAZ',
-  localities: new Map([
+  subdivisions: new Map([
     ['27', ['Batys Qazaqstan oblysy', Subdivisions.REGION]],
     ['31', ['Zhambyl oblysy', Subdivisions.REGION]],
     ['33', ['Zhetisū oblysy', Subdivisions.REGION]],

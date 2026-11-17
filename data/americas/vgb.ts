@@ -9,5 +9,5 @@ export const VGB: Country = {
   ioc: 'IVB',
   numeric: 92,
   undp: 'VGB',
-  localities: new Map(),
+  subdivisions: new Map(),
 }

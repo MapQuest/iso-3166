@@ -10,6 +10,7 @@ describe('@mapquest/iso-3166/core', () => {
     register(CAN)
     expect(country('CA')).toBeDefined()
     expect(country('CAN')?.name).toBe('Canada')
+    expect(country('CAN')?.subdivisions?.get('ON')?.[0]).toBe('Ontario')
     expect(country('US')).not.toBeDefined()
     expect(subdivision('CA-ON')?.name).toBe('Ontario')
     expect(subdivision('US-IN')).toBeUndefined()

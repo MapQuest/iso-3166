@@ -10,7 +10,7 @@ export const SUR: Country = {
   ioc: 'SUR',
   numeric: 740,
   undp: 'SUR',
-  localities: new Map([
+  subdivisions: new Map([
     ['BR', ['Brokopondo', Subdivisions.DISTRICT]],
     ['CM', ['Commewijne', Subdivisions.DISTRICT]],
     ['CR', ['Coronie', Subdivisions.DISTRICT]],

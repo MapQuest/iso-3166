@@ -10,7 +10,7 @@ export const GRL: Country = {
   alpha3: 'GRL',
   numeric: 304,
   undp: 'GRL',
-  localities: new Map([
+  subdivisions: new Map([
     ['AV', ['Avannaata Kommunia', Subdivisions.MUNICIPALITY]],
     ['KU', ['Kommune Kujalleq', Subdivisions.MUNICIPALITY]],
     ['QT', ['Kommune Qeqertalik', Subdivisions.MUNICIPALITY]],

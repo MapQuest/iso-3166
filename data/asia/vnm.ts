@@ -11,7 +11,7 @@ export const VNM: Country = {
   ioc: 'VIE',
   numeric: 704,
   undp: 'VNM',
-  localities: new Map([
+  subdivisions: new Map([
     ['01', ['Lai Châu', Subdivisions.PROVINCE]],
     ['02', ['Lào Cai', Subdivisions.PROVINCE]],
     ['03', ['Hà Giang', Subdivisions.PROVINCE]],

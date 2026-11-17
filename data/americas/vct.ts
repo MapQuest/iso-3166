@@ -10,7 +10,7 @@ export const VCT: Country = {
   ioc: 'VIN',
   numeric: 670,
   undp: 'VCT',
-  localities: new Map([
+  subdivisions: new Map([
     ['01', ['Charlotte', Subdivisions.PARISH]],
     ['02', ['Saint Andrew', Subdivisions.PARISH]],
     ['03', ['Saint David', Subdivisions.PARISH]],

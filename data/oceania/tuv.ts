@@ -10,7 +10,7 @@ export const TUV: Country = {
   ioc: 'TUV',
   numeric: 798,
   undp: 'TUV',
-  localities: new Map([
+  subdivisions: new Map([
     ['FUN', ['Funafuti', Subdivisions.TOWN_COUNCIL]],
     ['NIT', ['Niutao', Subdivisions.ISLAND_COUNCIL]],
     ['NKF', ['Nukufetau', Subdivisions.ISLAND_COUNCIL]],

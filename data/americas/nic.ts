@@ -10,7 +10,7 @@ export const NIC: Country = {
   ioc: 'NCA',
   numeric: 558,
   undp: 'NIC',
-  localities: new Map([
+  subdivisions: new Map([
     ['AN', ['Costa Caribe Norte', Subdivisions.AUTONOMOUS_REGION, { en: 'North Caribbean Coast' }]],
     ['AS', ['Costa Caribe Sur', Subdivisions.AUTONOMOUS_REGION, { en: 'South Caribbean Coast' }]],
     ['BO', ['Boaco', Subdivisions.DEPARTMENT]],

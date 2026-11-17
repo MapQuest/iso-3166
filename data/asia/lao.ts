@@ -11,7 +11,7 @@ export const LAO: Country = {
   ioc: 'LAO',
   numeric: 418,
   undp: 'LAO',
-  localities: new Map([
+  subdivisions: new Map([
     ['AT', ['Attapu', Subdivisions.PROVINCE]],
     ['BK', ['Bokèo', Subdivisions.PROVINCE]],
     ['BL', ['Bolikhamxai', Subdivisions.PROVINCE]],

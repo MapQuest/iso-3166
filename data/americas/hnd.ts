@@ -10,7 +10,7 @@ export const HND: Country = {
   ioc: 'HON',
   numeric: 340,
   undp: 'HND',
-  localities: new Map([
+  subdivisions: new Map([
     ['AT', ['Atlántida', Subdivisions.DEPARTMENT]],
     ['CH', ['Choluteca', Subdivisions.DEPARTMENT]],
     ['CL', ['Colón', Subdivisions.DEPARTMENT]],

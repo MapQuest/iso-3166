@@ -11,7 +11,7 @@ export const UZB: Country = {
   ioc: 'UZB',
   numeric: 860,
   undp: 'UZB',
-  localities: new Map([
+  subdivisions: new Map([
     ['AN', ['Andijon', Subdivisions.REGION, { en: 'Andijan' }]],
     ['BU', ['Buxoro', Subdivisions.REGION, { en: 'Bukhara' }]],
     ['FA', ['Farg‘ona', Subdivisions.REGION, { en: 'Fergana' }]],

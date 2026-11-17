@@ -11,7 +11,7 @@ export const TJK: Country = {
   ioc: 'TJK',
   numeric: 762,
   undp: 'TJK',
-  localities: new Map([
+  subdivisions: new Map([
     ['DU', ['Dushanbe', Subdivisions.CAPITAL_TERRITORY]],
     ['GB', ['Kŭhistoni Badakhshon', Subdivisions.AUTONOMOUS_REGION, { en: 'Gorno-Badakhshan' }]],
     ['KT', ['Khatlon', Subdivisions.REGION]],

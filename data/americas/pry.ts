@@ -10,7 +10,7 @@ export const PRY: Country = {
   ioc: 'PAR',
   numeric: 600,
   undp: 'PRY',
-  localities: new Map([
+  subdivisions: new Map([
     ['1', ['Concepción', Subdivisions.DEPARTMENT]],
     ['2', ['San Pedro', Subdivisions.DEPARTMENT]],
     ['3', ['Cordillera', Subdivisions.DEPARTMENT]],

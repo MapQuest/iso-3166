@@ -10,7 +10,7 @@ export const GUY: Country = {
   ioc: 'GUY',
   numeric: 328,
   undp: 'GUY',
-  localities: new Map([
+  subdivisions: new Map([
     ['BA', ['Barima-Waini', Subdivisions.REGION]],
     ['CU', ['Cuyuni-Mazaruni', Subdivisions.REGION]],
     ['DE', ['Demerara-Mahaica', Subdivisions.REGION]],

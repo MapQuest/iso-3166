@@ -11,7 +11,7 @@ export const FSM: Country = {
   ioc: 'FSM',
   numeric: 583,
   undp: 'FSM',
-  localities: new Map([
+  subdivisions: new Map([
     ['KSA', ['Kosrae', Subdivisions.STATE]],
     ['PNI', ['Pohnpei', Subdivisions.STATE]],
     ['TRK', ['Chuuk', Subdivisions.STATE]],

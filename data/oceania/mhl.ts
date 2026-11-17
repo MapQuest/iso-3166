@@ -10,7 +10,7 @@ export const MHL: Country = {
   ioc: 'MHL',
   numeric: 584,
   undp: 'MHL',
-  localities: new Map([
+  subdivisions: new Map([
     ['L', ['Ralik chain', Subdivisions.CHAIN_OF_ISLANDS]],
     ['T', ['Ratak chain', Subdivisions.CHAIN_OF_ISLANDS]],
     ['ALK', ['Ailuk', Subdivisions.MUNICIPALITY]],

@@ -10,7 +10,7 @@ export const SLV: Country = {
   ioc: 'ESA',
   numeric: 222,
   undp: 'SLV',
-  localities: new Map([
+  subdivisions: new Map([
     ['AH', ['Ahuachapán', Subdivisions.DEPARTMENT]],
     ['CA', ['Cabañas', Subdivisions.DEPARTMENT]],
     ['CH', ['Chalatenango', Subdivisions.DEPARTMENT]],

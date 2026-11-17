@@ -11,7 +11,7 @@ export const BGD: Country = {
   ioc: 'BAN',
   numeric: 50,
   undp: 'BGD',
-  localities: new Map([
+  subdivisions: new Map([
     ['A', ['Barishal', Subdivisions.DIVISION]],
     ['B', ['Chattogram', Subdivisions.DIVISION, { local: 'Chittagong' }]],
     ['C', ['Dhaka', Subdivisions.DIVISION]],

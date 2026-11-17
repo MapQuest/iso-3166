@@ -10,7 +10,7 @@ export const ARG: Country = {
   ioc: 'ARG',
   numeric: 32,
   undp: 'ARG',
-  localities: new Map([
+  subdivisions: new Map([
     ['A', ['Salta', Subdivisions.PROVINCE]],
     ['B', ['Buenos Aires', Subdivisions.PROVINCE]],
     ['C', ['Ciudad Autónoma de Buenos Aires', Subdivisions.CITY]],

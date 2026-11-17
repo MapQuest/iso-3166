@@ -10,7 +10,7 @@ export const DMA: Country = {
   ioc: 'DMA',
   numeric: 212,
   undp: 'DMA',
-  localities: new Map([
+  subdivisions: new Map([
     ['02', ['Saint Andrew', Subdivisions.PARISH]],
     ['03', ['Saint David', Subdivisions.PARISH]],
     ['04', ['Saint George', Subdivisions.PARISH]],

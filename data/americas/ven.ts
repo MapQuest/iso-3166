@@ -11,7 +11,7 @@ export const VEN: Country = {
   ioc: 'VEN',
   numeric: 862,
   undp: 'VEN',
-  localities: new Map([
+  subdivisions: new Map([
     ['A', ['Distrito Capital', Subdivisions.CAPITAL_DISTRICT]],
     ['B', ['Anzoátegui', Subdivisions.STATE]],
     ['C', ['Apure', Subdivisions.STATE]],

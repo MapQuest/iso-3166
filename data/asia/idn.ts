@@ -10,7 +10,7 @@ export const IDN: Country = {
   ioc: 'INA',
   numeric: 360,
   undp: 'IDN',
-  localities: new Map([
+  subdivisions: new Map([
     ['AC', ['Aceh', Subdivisions.PROVINCE]],
     ['BA', ['Bali', Subdivisions.PROVINCE]],
     ['BB', ['Kepulauan Bangka Belitung', Subdivisions.PROVINCE, { en: 'Bangka Belitung Islands' }]],

@@ -10,7 +10,7 @@ export const ATG: Country = {
   ioc: 'ANT',
   numeric: 28,
   undp: 'ATG',
-  localities: new Map([
+  subdivisions: new Map([
     ['03', ['Saint George', Subdivisions.PARISH]],
     ['04', ['Saint John', Subdivisions.PARISH]],
     ['05', ['Saint Mary', Subdivisions.PARISH]],

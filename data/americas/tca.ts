@@ -8,5 +8,5 @@ export const TCA: Country = {
   alpha3: 'TCA',
   numeric: 796,
   undp: 'TCA',
-  localities: new Map(),
+  subdivisions: new Map(),
 }

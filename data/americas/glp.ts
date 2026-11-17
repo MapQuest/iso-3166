@@ -9,5 +9,5 @@ export const GLP: Country = {
   ioc: 'GUD',
   numeric: 312,
   undp: 'GLP',
-  localities: new Map(),
+  subdivisions: new Map(),
 }

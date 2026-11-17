@@ -8,5 +8,5 @@ export const MTQ: Country = {
   alpha3: 'MTQ',
   numeric: 474,
   undp: 'MTQ',
-  localities: new Map(),
+  subdivisions: new Map(),
 }

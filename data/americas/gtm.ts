@@ -10,7 +10,7 @@ export const GTM: Country = {
   ioc: 'GUA',
   numeric: 320,
   undp: 'GTM',
-  localities: new Map([
+  subdivisions: new Map([
     ['01', ['Guatemala', Subdivisions.DEPARTMENT]],
     ['02', ['El Progreso', Subdivisions.DEPARTMENT]],
     ['03', ['Sacatepéquez', Subdivisions.DEPARTMENT]],

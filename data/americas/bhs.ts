@@ -10,7 +10,7 @@ export const BHS: Country = {
   ioc: 'BAH',
   numeric: 44,
   undp: 'BHS',
-  localities: new Map([
+  subdivisions: new Map([
     ['AK', ['Acklins', Subdivisions.DISTRICT]],
     ['BI', ['Bimini', Subdivisions.DISTRICT]],
     ['BP', ['Black Point', Subdivisions.DISTRICT]],

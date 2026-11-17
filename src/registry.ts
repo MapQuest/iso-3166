@@ -72,7 +72,7 @@ function registerCountry (country: Country): void {
 /** Build a country's shared subdivision index for normalized codes and names. */
 function registerSubdivisions (country: Country): CountryRegistration['subdivisions'] {
   const subdivisions = new Map<string, Subdivision>()
-  for (const [regionCode, [name, type, localizedNames]] of country.localities || []) {
+  for (const [regionCode, [name, type, localizedNames]] of country.subdivisions || []) {
     const result: Subdivision = {
       name,
       type,

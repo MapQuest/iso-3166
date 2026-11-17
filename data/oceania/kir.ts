@@ -10,7 +10,7 @@ export const KIR: Country = {
   ioc: 'KIR',
   numeric: 296,
   undp: 'KIR',
-  localities: new Map([
+  subdivisions: new Map([
     ['G', ['Gilbert Islands', Subdivisions.GROUP_OF_ISLANDS]],
     ['L', ['Line Islands', Subdivisions.GROUP_OF_ISLANDS]],
     ['P', ['Phoenix Islands', Subdivisions.GROUP_OF_ISLANDS]],

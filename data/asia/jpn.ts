@@ -11,7 +11,7 @@ export const JPN: Country = {
   ioc: 'JPN',
   numeric: 392,
   undp: 'JPN',
-  localities: new Map([
+  subdivisions: new Map([
     ['01', ['Hokkaido', Subdivisions.PREFECTURE]],
     ['02', ['Aomori', Subdivisions.PREFECTURE]],
     ['03', ['Iwate', Subdivisions.PREFECTURE]],
